@@ -1,0 +1,40 @@
+{
+  "id": "6t2ny12fdd",
+  "name": {
+    "tr": "Belgelerimiz",
+    "en": "Certificates",
+    "ar": "الشهادات"
+  },
+  "description": {
+    "tr": "Kalite, çevre, iş güvenliği ve müteahhitlik yetki belgelerimiz (demo).",
+    "en": "Our quality, environmental, safety and contractor authorisation certificates (demo).",
+    "ar": "شهادات الجودة والبيئة والسلامة وتأهيل المقاولين لدينا (تجريبي)."
+  },
+  "keyword": {
+    "tr": "belgeler, ISO, yetki belgesi",
+    "en": "certificates, ISO, authorisation",
+    "ar": "شهادات، ISO، تأهيل"
+  },
+  "path": "belgelerimiz",
+  "icon": "workspace_premium",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "4o0fuc",
+      "g1ca01"
+    ],
+    "footer": []
+  },
+  "index": 5,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Belgelerimiz",
+    "en": "Certificates",
+    "ar": "الشهادات"
+  },
+  "date": "2026-10-30T18:32:56.786Z",
+  "update": "2026-10-30T19:01:10.313Z"
+}

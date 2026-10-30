@@ -1,0 +1,2985 @@
+{
+  "data": [
+    {
+      "name": "Demo Bandı",
+      "path": "demo-bandi",
+      "local": "header",
+      "category": "demo",
+      "id": "g1db01",
+      "desing": {
+        "tone": "info",
+        "bandBg": "",
+        "bandFg": "",
+        "ctaHref": "https://webyapar.com/temalar",
+        "ariaLabel": {
+          "tr": "Demo site uyarısı",
+          "en": "Demo site notice",
+          "ar": "تنبيه الموقع التجريبي"
+        },
+        "text": {
+          "tr": "Bu bir demo sitedir — içerik kurgusaldır, ödeme alınmaz",
+          "en": "This is a demo site — the content is fictional and no payment is taken",
+          "ar": "هذا موقع تجريبي — المحتوى افتراضي ولا يتم تحصيل أي مدفوعات"
+        },
+        "ctaText": {
+          "tr": "Bu temayı iste",
+          "en": "Get this theme",
+          "ar": "اطلب هذا القالب"
+        },
+        "newTabText": {
+          "tr": "(yeni sekmede açılır)",
+          "en": "(opens in a new tab)",
+          "ar": "(يفتح في علامة تبويب جديدة)"
+        }
+      },
+      "version": "1.0.0",
+      "icon": "info",
+      "index": 0
+    },
+    {
+      "name": "Menü 4",
+      "path": "menu-4",
+      "local": "header",
+      "category": "menu",
+      "id": "g1mn01",
+      "desing": {
+        "logo": "logo.png",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "height": "84px",
+        "background-color": "var(--mx-site-bg, #ffffff)"
+      },
+      "version": "1.0.0",
+      "icon": "menu",
+      "index": 1
+    },
+    {
+      "name": "Hero 2 (Ortalanmış)",
+      "path": "hero-2",
+      "local": "body",
+      "category": "hero",
+      "id": "g1hr01",
+      "desing": {
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
+        "glow1": "rgba(255,255,255,.16)",
+        "glow2": "rgba(255,255,255,.1)",
+        "btnbg": "var(--mx-site-surface, #ffffff)",
+        "btncolor": "var(--mx-site-text, #1b1b1b)",
+        "badge": {
+          "tr": "Teklif",
+          "en": "Quote",
+          "ar": "عرض سعر"
+        },
+        "title": {
+          "tr": "Projenizi birlikte planlayalım",
+          "en": "Let’s plan your project together",
+          "ar": "لنخطط مشروعك معًا"
+        },
+        "description": {
+          "tr": "Arsa değerlendirmeden anahtar teslimine kadar her aşamada yanınızdayız. Teslim süresi sözleşmede yazılıdır ve konut projelerinde en fazla 48 aydır.",
+          "en": "From plot evaluation to handover, we are with you at every stage. The delivery period is written in the contract and is at most 48 months for residential projects.",
+          "ar": "نرافقك في كل مرحلة، من تقييم الأرض حتى تسليم المفتاح. مدة التسليم مكتوبة في العقد وهي 48 شهرًا كحدٍّ أقصى في المشاريع السكنية."
+        },
+        "btn1Text": {
+          "tr": "Teklif formu",
+          "en": "Quote form",
+          "ar": "نموذج الطلب"
+        },
+        "btn1Url": "teklif-al",
+        "btn2Text": {
+          "tr": "Kat planları",
+          "en": "Floor plans",
+          "ar": "مخططات الطوابق"
+        },
+        "btn2Url": "kat-planlari"
+      },
+      "version": "1.0.0",
+      "icon": "hero",
+      "index": 2
+    },
+    {
+      "name": "Proje Kartları (Filtre + Arama)",
+      "path": "proje-kart-filtre",
+      "local": "body",
+      "category": "proje",
+      "id": "g1pk01",
+      "desing": {
+        "max": "1280px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #ffffff)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "statusDevam": "#b45309",
+        "statusTamam": "#15803d",
+        "statusYakinda": "#1d4ed8",
+        "gap": "20px",
+        "radius": "14px",
+        "columns": {
+          "d": 3,
+          "t": 2,
+          "m": 1
+        },
+        "ratio": "4:3",
+        "search": true,
+        "sort": "year",
+        "sortSelect": true,
+        "urlPrefix": "",
+        "title": {
+          "tr": "Projelerimiz",
+          "en": "Our projects",
+          "ar": "مشاريعنا"
+        },
+        "description": {
+          "tr": "Konut ve ticari projelerimizi kategori, durum ya da anahtar sözcükle süzün. Görseller temsilidir.",
+          "en": "Filter our residential and commercial projects by category, status or keyword. Images are representative.",
+          "ar": "صفِّ مشاريعنا السكنية والتجارية حسب الفئة أو الحالة أو كلمة مفتاحية. الصور تمثيلية."
+        },
+        "searchLabel": {
+          "tr": "Projelerde ara",
+          "en": "Search projects",
+          "ar": "البحث في المشاريع"
+        },
+        "searchPlaceholder": {
+          "tr": "Proje, konum veya yıl ara…",
+          "en": "Search project, place or year…",
+          "ar": "ابحث عن مشروع أو موقع أو سنة…"
+        },
+        "allLabel": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "filterLabel": {
+          "tr": "Kategoriye göre filtrele",
+          "en": "Filter by category",
+          "ar": "التصفية حسب الفئة"
+        },
+        "statusFieldLabel": {
+          "tr": "Durum",
+          "en": "Status",
+          "ar": "الحالة"
+        },
+        "allStatusLabel": {
+          "tr": "Tüm durumlar",
+          "en": "All statuses",
+          "ar": "كل الحالات"
+        },
+        "sortFieldLabel": {
+          "tr": "Sıralama",
+          "en": "Sort by",
+          "ar": "الترتيب"
+        },
+        "sortYearLabel": {
+          "tr": "Yıl (yeniden eskiye)",
+          "en": "Year (newest first)",
+          "ar": "السنة (الأحدث أولًا)"
+        },
+        "sortTitleLabel": {
+          "tr": "Ad (A → Z)",
+          "en": "Name (A → Z)",
+          "ar": "الاسم (أبجديًا)"
+        },
+        "detailLabel": {
+          "tr": "Detayı incele",
+          "en": "View details",
+          "ar": "عرض التفاصيل"
+        },
+        "yearLabel": {
+          "tr": "Yıl",
+          "en": "Year",
+          "ar": "السنة"
+        },
+        "clearLabel": {
+          "tr": "Filtreleri temizle",
+          "en": "Clear filters",
+          "ar": "مسح عوامل التصفية"
+        },
+        "emptyText": {
+          "tr": "Aramanıza uyan proje bulunamadı. Filtreleri değiştirmeyi deneyin.",
+          "en": "No projects match your search. Try changing the filters.",
+          "ar": "لم نعثر على مشاريع مطابقة لبحثك. جرّب تغيير عوامل التصفية."
+        },
+        "countText": {
+          "zero": {
+            "ar": "لا توجد مشاريع"
+          },
+          "one": {
+            "tr": "{n} proje",
+            "en": "{n} project",
+            "ar": "مشروع واحد"
+          },
+          "two": {
+            "ar": "مشروعان"
+          },
+          "few": {
+            "ar": "{n} مشاريع"
+          },
+          "many": {
+            "ar": "{n} مشروعًا"
+          },
+          "other": {
+            "tr": "{n} proje",
+            "en": "{n} projects",
+            "ar": "{n} مشروع"
+          }
+        },
+        "statusLabels": {
+          "devam": {
+            "tr": "Devam ediyor",
+            "en": "In progress",
+            "ar": "قيد التنفيذ"
+          },
+          "tamam": {
+            "tr": "Tamamlandı",
+            "en": "Completed",
+            "ar": "مكتمل"
+          },
+          "yakinda": {
+            "tr": "Yakında",
+            "en": "Coming soon",
+            "ar": "قريبًا"
+          }
+        },
+        "cats": [
+          {
+            "id": "konut",
+            "name": {
+              "tr": "Konut",
+              "en": "Residential",
+              "ar": "سكني"
+            }
+          },
+          {
+            "id": "ticari",
+            "name": {
+              "tr": "Ticari",
+              "en": "Commercial",
+              "ar": "تجاري"
+            }
+          }
+        ]
+      },
+      "version": "1.0.0",
+      "icon": "domain",
+      "data": [
+        {
+          "id": "vadi-konutlari",
+          "title": {
+            "tr": "Vadi Konutları",
+            "en": "Vadi Residences",
+            "ar": "مساكن الوادي"
+          },
+          "cat": "konut",
+          "year": 2027,
+          "status": "devam",
+          "img": "insaat-proje-5.webp",
+          "meta": [
+            {
+              "k": {
+                "tr": "Toplam inşaat alanı",
+                "en": "Total construction area",
+                "ar": "إجمالي مساحة البناء"
+              },
+              "v": "18.600 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Şehitkamil",
+                "en": "Sehitkamil",
+                "ar": "شهيد كامل"
+              }
+            },
+            {
+              "k": {
+                "tr": "Taahhüt edilen teslim",
+                "en": "Committed delivery",
+                "ar": "موعد التسليم المتعهَّد به"
+              },
+              "v": {
+                "tr": "30 ay",
+                "en": "30 months",
+                "ar": "30 شهرًا"
+              }
+            }
+          ]
+        },
+        {
+          "id": "park-evleri",
+          "title": {
+            "tr": "Park Evleri",
+            "en": "Park Homes",
+            "ar": "منازل الحديقة"
+          },
+          "cat": "konut",
+          "year": 2026,
+          "status": "devam",
+          "img": "insaat-proje-1.webp",
+          "meta": [
+            {
+              "k": {
+                "tr": "Toplam inşaat alanı",
+                "en": "Total construction area",
+                "ar": "إجمالي مساحة البناء"
+              },
+              "v": "9.400 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Şahinbey",
+                "en": "Sahinbey",
+                "ar": "شاهين بي"
+              }
+            },
+            {
+              "k": {
+                "tr": "Taahhüt edilen teslim",
+                "en": "Committed delivery",
+                "ar": "موعد التسليم المتعهَّد به"
+              },
+              "v": {
+                "tr": "24 ay",
+                "en": "24 months",
+                "ar": "24 شهرًا"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cinar-evleri",
+          "title": {
+            "tr": "Çınar Evleri",
+            "en": "Cinar Homes",
+            "ar": "منازل الدلب"
+          },
+          "cat": "konut",
+          "year": 2028,
+          "status": "yakinda",
+          "img": "insaat-ilerleme-4.webp",
+          "meta": [
+            {
+              "k": {
+                "tr": "Toplam inşaat alanı",
+                "en": "Total construction area",
+                "ar": "إجمالي مساحة البناء"
+              },
+              "v": "6.200 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Oğuzeli",
+                "en": "Oguzeli",
+                "ar": "أوغوزيلي"
+              }
+            },
+            {
+              "k": {
+                "tr": "Taahhüt edilen teslim",
+                "en": "Committed delivery",
+                "ar": "موعد التسليم المتعهَّد به"
+              },
+              "v": {
+                "tr": "36 ay",
+                "en": "36 months",
+                "ar": "36 شهرًا"
+              }
+            }
+          ]
+        },
+        {
+          "id": "bahceli-villalar",
+          "title": {
+            "tr": "Bahçeli Villalar",
+            "en": "Garden Villas",
+            "ar": "الفيلات ذات الحدائق"
+          },
+          "cat": "konut",
+          "year": 2024,
+          "status": "tamam",
+          "img": "insaat-proje-3.webp",
+          "meta": [
+            {
+              "k": {
+                "tr": "Toplam inşaat alanı",
+                "en": "Total construction area",
+                "ar": "إجمالي مساحة البناء"
+              },
+              "v": "7.800 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Şehitkamil",
+                "en": "Sehitkamil",
+                "ar": "شهيد كامل"
+              }
+            },
+            {
+              "k": {
+                "tr": "Teslim yılı",
+                "en": "Delivered",
+                "ar": "سنة التسليم"
+              },
+              "v": "2024"
+            }
+          ]
+        },
+        {
+          "id": "meridyen-is-kulesi",
+          "title": {
+            "tr": "Meridyen İş Kulesi",
+            "en": "Meridyen Business Tower",
+            "ar": "برج ميريديان للأعمال"
+          },
+          "cat": "ticari",
+          "year": 2023,
+          "status": "tamam",
+          "img": "insaat-proje-2.webp",
+          "meta": [
+            {
+              "k": {
+                "tr": "Toplam inşaat alanı",
+                "en": "Total construction area",
+                "ar": "إجمالي مساحة البناء"
+              },
+              "v": "14.300 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Şahinbey",
+                "en": "Sahinbey",
+                "ar": "شاهين بي"
+              }
+            },
+            {
+              "k": {
+                "tr": "Teslim yılı",
+                "en": "Delivered",
+                "ar": "سنة التسليم"
+              },
+              "v": "2023"
+            }
+          ]
+        },
+        {
+          "id": "kervan-carsi",
+          "title": {
+            "tr": "Kervan Çarşı",
+            "en": "Kervan Bazaar",
+            "ar": "سوق كرفان"
+          },
+          "cat": "ticari",
+          "year": 2025,
+          "status": "tamam",
+          "img": "insaat-proje-4.webp",
+          "meta": [
+            {
+              "k": {
+                "tr": "Toplam inşaat alanı",
+                "en": "Total construction area",
+                "ar": "إجمالي مساحة البناء"
+              },
+              "v": "11.250 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Şehitkamil",
+                "en": "Sehitkamil",
+                "ar": "شهيد كامل"
+              }
+            },
+            {
+              "k": {
+                "tr": "Teslim yılı",
+                "en": "Delivered",
+                "ar": "سنة التسليم"
+              },
+              "v": "2025"
+            }
+          ]
+        }
+      ],
+      "index": 3
+    },
+    {
+      "name": "İstatistik Bandı 1",
+      "path": "stats-1",
+      "local": "body",
+      "category": "stats",
+      "id": "g1st01",
+      "desing": {
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
+        "numbercolor": "#ffffff",
+        "labelcolor": "rgba(255,255,255,.88)",
+        "iconsize": "56px",
+        "iconbox": "88px"
+      },
+      "version": "1.0.0",
+      "icon": "monitoring",
+      "data": [
+        {
+          "number": 42,
+          "suffix": "",
+          "label": {
+            "tr": "Tamamlanan proje",
+            "en": "Completed projects",
+            "ar": "مشروعًا منجزًا"
+          },
+          "icon": "task_alt"
+        },
+        {
+          "number": 3200,
+          "suffix": "+",
+          "label": {
+            "tr": "Teslim edilen konut",
+            "en": "Homes delivered",
+            "ar": "وحدة سكنية مسلَّمة"
+          },
+          "icon": "home_work"
+        },
+        {
+          "number": 18,
+          "suffix": "",
+          "label": {
+            "tr": "Yıllık deneyim",
+            "en": "Years of experience",
+            "ar": "سنة من الخبرة"
+          },
+          "icon": "workspace_premium"
+        },
+        {
+          "number": 48,
+          "suffix": "",
+          "label": {
+            "tr": "Azami taahhüt süresi (ay)",
+            "en": "Maximum committed period (months)",
+            "ar": "الحد الأقصى لمدة التعهّد (بالأشهر)"
+          },
+          "icon": "schedule"
+        }
+      ],
+      "index": 4
+    },
+    {
+      "name": "Galeri Masonry (Filtre + Lightbox)",
+      "path": "galeri-masonry",
+      "local": "body",
+      "category": "galeri",
+      "id": "g1gm01",
+      "desing": {
+        "max": "1280px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #ffffff)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "gap": "12px",
+        "radius": "8px",
+        "columns": {
+          "d": 4,
+          "t": 3,
+          "m": 2
+        },
+        "ratio": "auto",
+        "captions": "hover",
+        "filter": true,
+        "lightbox": true,
+        "lazy": true,
+        "urlPrefix": "",
+        "title": {
+          "tr": "Projelerden ve şantiyeden kareler",
+          "en": "Frames from our projects and sites",
+          "ar": "لقطات من مشاريعنا ومواقعنا"
+        },
+        "description": {
+          "tr": "Kategoriye göre süzün, büyütmek için dokunun. Görseller temsilidir.",
+          "en": "Filter by category and tap to enlarge. Images are representative.",
+          "ar": "صفِّ حسب الفئة وانقر على الصورة لتكبيرها. الصور تمثيلية."
+        },
+        "allLabel": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "filterLabel": {
+          "tr": "Kategoriye göre filtrele",
+          "en": "Filter by category",
+          "ar": "التصفية حسب الفئة"
+        },
+        "countText": {
+          "zero": {
+            "ar": "لا توجد صور"
+          },
+          "one": {
+            "tr": "{n} fotoğraf",
+            "en": "{n} photo",
+            "ar": "صورة واحدة"
+          },
+          "two": {
+            "ar": "صورتان"
+          },
+          "few": {
+            "ar": "{n} صور"
+          },
+          "many": {
+            "ar": "{n} صورة"
+          },
+          "other": {
+            "tr": "{n} fotoğraf",
+            "en": "{n} photos",
+            "ar": "{n} صورة"
+          }
+        },
+        "emptyText": {
+          "tr": "Henüz gösterilecek görsel yok.",
+          "en": "There are no images to show yet.",
+          "ar": "لا توجد صور لعرضها بعد."
+        },
+        "lightboxLabels": {
+          "dialog": {
+            "tr": "Görsel görüntüleyici",
+            "en": "Image viewer",
+            "ar": "عارض الصور"
+          },
+          "close": {
+            "tr": "Kapat",
+            "en": "Close",
+            "ar": "إغلاق"
+          },
+          "prev": {
+            "tr": "Önceki görsel",
+            "en": "Previous image",
+            "ar": "الصورة السابقة"
+          },
+          "next": {
+            "tr": "Sonraki görsel",
+            "en": "Next image",
+            "ar": "الصورة التالية"
+          },
+          "counter": {
+            "tr": "{i} / {n}",
+            "en": "{i} / {n}",
+            "ar": "{i} من {n}"
+          }
+        },
+        "cats": [
+          {
+            "id": "konut",
+            "name": {
+              "tr": "Konut",
+              "en": "Residential",
+              "ar": "سكني"
+            }
+          },
+          {
+            "id": "ticari",
+            "name": {
+              "tr": "Ticari",
+              "en": "Commercial",
+              "ar": "تجاري"
+            }
+          },
+          {
+            "id": "surec",
+            "name": {
+              "tr": "Süreç",
+              "en": "Process",
+              "ar": "سير العمل"
+            }
+          }
+        ]
+      },
+      "version": "1.0.0",
+      "icon": "photo_library",
+      "data": [
+        {
+          "img": "insaat-hero-santiye.webp",
+          "cat": "surec",
+          "w": 1280,
+          "h": 720,
+          "title": {
+            "tr": "Vinç ve kaba inşaat",
+            "en": "Crane and structural frame",
+            "ar": "الرافعة والهيكل الإنشائي"
+          },
+          "alt": {
+            "tr": "Gün batımında vinçli konut şantiyesi (görsel temsilidir)",
+            "en": "Residential site with a tower crane at golden hour (representative image)",
+            "ar": "موقع بناء سكني برافعة برجية عند الغروب (الصورة تمثيلية)"
+          }
+        },
+        {
+          "img": "insaat-proje-1.webp",
+          "cat": "konut",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Park Evleri",
+            "en": "Park Homes",
+            "ar": "منازل الحديقة"
+          },
+          "alt": {
+            "tr": "Balkonlu modern konut bloğu (görsel temsilidir)",
+            "en": "Modern apartment block with balconies (representative image)",
+            "ar": "مبنى سكني حديث بشرفات (الصورة تمثيلية)"
+          }
+        },
+        {
+          "img": "insaat-proje-3.webp",
+          "cat": "konut",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Bahçeli Villalar",
+            "en": "Garden Villas",
+            "ar": "الفيلات ذات الحدائق"
+          },
+          "alt": {
+            "tr": "Taş kaplamalı bahçeli villa sitesi (görsel temsilidir)",
+            "en": "Villa complex with stone cladding and gardens (representative image)",
+            "ar": "مجمع فيلات مكسوّ بالحجر مع حدائق (الصورة تمثيلية)"
+          }
+        },
+        {
+          "img": "insaat-proje-5.webp",
+          "cat": "konut",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Vadi Konutları",
+            "en": "Vadi Residences",
+            "ar": "مساكن الوادي"
+          },
+          "alt": {
+            "tr": "İç avlulu konut yerleşkesi, kuş bakışı (görsel temsilidir)",
+            "en": "Residential complex with courtyard, aerial view (representative image)",
+            "ar": "مجمع سكني بفناء داخلي، منظر علوي (الصورة تمثيلية)"
+          }
+        },
+        {
+          "img": "insaat-proje-2.webp",
+          "cat": "ticari",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Meridyen İş Kulesi",
+            "en": "Meridyen Business Tower",
+            "ar": "برج ميريديان للأعمال"
+          },
+          "alt": {
+            "tr": "Cam cepheli ofis kulesi (görsel temsilidir)",
+            "en": "Office tower with a glass facade (representative image)",
+            "ar": "برج مكاتب بواجهة زجاجية (الصورة تمثيلية)"
+          }
+        },
+        {
+          "img": "insaat-proje-4.webp",
+          "cat": "ticari",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Kervan Çarşı",
+            "en": "Kervan Bazaar",
+            "ar": "سوق كرفان"
+          },
+          "alt": {
+            "tr": "Geniş cam girişli çarşı cephesi (görsel temsilidir)",
+            "en": "Shopping centre facade with a wide glass entrance (representative image)",
+            "ar": "واجهة سوق بمدخل زجاجي واسع (الصورة تمثيلية)"
+          }
+        },
+        {
+          "img": "insaat-ofis.webp",
+          "cat": "surec",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Proje masası",
+            "en": "Project desk",
+            "ar": "طاولة المشروع"
+          },
+          "alt": {
+            "tr": "Ekip, mimari planlar üzerinde çalışıyor (görsel temsilidir)",
+            "en": "The team working over architectural plans (representative image)",
+            "ar": "الفريق يعمل على المخططات المعمارية (الصورة تمثيلية)"
+          }
+        },
+        {
+          "img": "insaat-kat-plani.webp",
+          "cat": "surec",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Kat planı çalışması",
+            "en": "Floor plan study",
+            "ar": "دراسة مخطط الطابق"
+          },
+          "alt": {
+            "tr": "Kurşun kalemle çizilmiş kat planı (görsel temsilidir)",
+            "en": "A pencil-drawn floor plan (representative image)",
+            "ar": "مخطط طابق مرسوم بقلم الرصاص (الصورة تمثيلية)"
+          }
+        }
+      ],
+      "index": 5
+    },
+    {
+      "name": "CTA Şerit 1",
+      "path": "cta-1",
+      "local": "body",
+      "category": "cta",
+      "id": "g1ca01",
+      "desing": {
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
+        "btnbg": "var(--mx-site-surface, #ffffff)",
+        "btncolor": "var(--mx-site-text, #1b1b1b)",
+        "title": {
+          "tr": "Projenizi konuşalım",
+          "en": "Let’s talk about your project",
+          "ar": "لنتحدث عن مشروعك"
+        },
+        "description": {
+          "tr": "Ücretsiz keşif için bize ulaşın. Görseller temsilidir.",
+          "en": "Reach out for a free site visit. Images are representative.",
+          "ar": "تواصل معنا لزيارة موقع مجانية. الصور تمثيلية."
+        },
+        "btn1Text": {
+          "tr": "Teklif al",
+          "en": "Get a quote",
+          "ar": "اطلب عرض سعر"
+        },
+        "btn1Url": "teklif-al",
+        "btn2Text": {
+          "tr": "Projeler",
+          "en": "Projects",
+          "ar": "المشاريع"
+        },
+        "btn2Url": "projelerimiz"
+      },
+      "version": "1.1.0",
+      "icon": "campaign",
+      "index": 6
+    },
+    {
+      "name": "Footer 3",
+      "path": "footer-3",
+      "local": "footer",
+      "category": "footer",
+      "id": "g1ft01",
+      "desing": {
+        "showlang": true,
+        "bgcolor": "var(--mx-site-surface-2, #f1f1ee)",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "minimal_design": true,
+        "social_media": false
+      },
+      "version": "1.0.0",
+      "icon": "widgets",
+      "data": [],
+      "index": 7
+    },
+    {
+      "name": "İletişim",
+      "path": "contact-3",
+      "local": "body",
+      "category": "contact",
+      "id": "g1ct01",
+      "desing": {
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "name": {
+          "tr": "Bize ulaşın",
+          "en": "Contact us",
+          "ar": "تواصل معنا"
+        },
+        "margin": "30px 0px 30px 0px",
+        "linkcolor": "var(--mx-site-primary, #2563eb)"
+      },
+      "version": "1.0.0",
+      "icon": "contact_mail",
+      "data": [
+        {
+          "icon": "phone",
+          "text": "+90 342 000 00 00",
+          "url": ""
+        },
+        {
+          "icon": "email",
+          "text": "bilgi@kalesuyapi.example"
+        },
+        {
+          "icon": "map",
+          "text": {
+            "tr": "Atatürk Bulvarı No: 24, Şehitkamil, Gaziantep (kurgusal adres)",
+            "en": "24 Ataturk Boulevard, Sehitkamil, Gaziantep (fictional address)",
+            "ar": "شارع أتاتورك رقم 24، شهيد كامل، غازي عنتاب (عنوان افتراضي)"
+          }
+        },
+        {
+          "icon": "schedule",
+          "text": {
+            "tr": "Pzt–Cum 09:00 – 18:00",
+            "en": "Mon–Fri 09:00 – 18:00",
+            "ar": "الاثنين–الجمعة 09:00 – 18:00"
+          },
+          "url": ""
+        }
+      ],
+      "index": 8
+    },
+    {
+      "name": "Maps",
+      "path": "map-2",
+      "local": "body",
+      "category": "map",
+      "id": "g1mp01",
+      "desing": {
+        "height": "200px",
+        "opacity": "0.5",
+        "backgroundcolor": "#ffffff",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "img": "map.png",
+        "externalUrl": "",
+        "margin": "0px"
+      },
+      "version": "1.0.0",
+      "icon": "widgets",
+      "index": 9
+    },
+    {
+      "name": "Tanıtım Modülü",
+      "path": "module-1",
+      "local": "body",
+      "category": "module",
+      "id": "g1in01",
+      "desing": {
+        "name": {
+          "tr": "Kalesu Yapı",
+          "en": "Kalesu Yapi",
+          "ar": "كاليسو يابي"
+        },
+        "description": {
+          "tr": "Kalesu Yapı, Gaziantep merkezli kurgusal bir demo inşaat firmasıdır. Konut ve ticari projeleri planlı süreç, belgeli kalite ve aşama aşama paylaşılan şantiye ilerlemesiyle teslim eder. Görseller temsilidir.",
+          "en": "Kalesu Yapi is a fictional demo construction firm based in Gaziantep. It delivers housing and commercial projects through a planned process, certified quality and site progress shared stage by stage. Images are representative.",
+          "ar": "كاليسو يابي شركة إنشاءات تجريبية افتراضية مقرها غازي عنتاب. تسلّم المشاريع السكنية والتجارية عبر عملية مخططة وجودة موثّقة وتقدّم موقع يُشارَك مرحلة بمرحلة. الصور تمثيلية."
+        },
+        "name2": {
+          "tr": "Sözleşmeli teslim",
+          "en": "Contractual delivery",
+          "ar": "تسليم تعاقدي"
+        },
+        "spot2": {
+          "tr": "Teslim tarihi sözleşmede yazılıdır; konut projelerinde süre en fazla 48 aydır.",
+          "en": "The delivery date is written in the contract; for residential projects the period is at most 48 months.",
+          "ar": "موعد التسليم مكتوب في العقد، ومدته في المشاريع السكنية 48 شهرًا كحدٍّ أقصى."
+        },
+        "icon2": "schedule",
+        "name3": {
+          "tr": "Açık ilerleme",
+          "en": "Open progress",
+          "ar": "تقدّم معلن"
+        },
+        "spot3": {
+          "tr": "Her aşamada aynı kadrajdan çekilmiş ilerleme görselleri paylaşılır.",
+          "en": "Progress images from the same viewpoint are shared at every stage.",
+          "ar": "تُشارَك صور التقدّم من الزاوية نفسها في كل مرحلة."
+        },
+        "icon3": "visibility",
+        "img": "insaat-ofis.webp",
+        "bgcolor": "var(--mx-site-surface, #ffffff)",
+        "fontcolor": "var(--mx-site-text, #1b1b1b)",
+        "margintop": "20",
+        "marginbotton": "20",
+        "title": {
+          "tr": "Hakkımızda",
+          "en": "About us",
+          "ar": "من نحن"
+        }
+      },
+      "version": "1.1.0",
+      "icon": "business",
+      "index": 10
+    },
+    {
+      "name": "Proje Kartları (Filtre + Arama)",
+      "path": "proje-kart-filtre",
+      "local": "body",
+      "category": "proje",
+      "id": "g1pk02",
+      "desing": {
+        "max": "1280px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #ffffff)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "statusDevam": "#b45309",
+        "statusTamam": "#15803d",
+        "statusYakinda": "#1d4ed8",
+        "gap": "20px",
+        "radius": "14px",
+        "columns": {
+          "d": 3,
+          "t": 2,
+          "m": 1
+        },
+        "ratio": "4:3",
+        "search": true,
+        "sort": "year",
+        "sortSelect": true,
+        "urlPrefix": "",
+        "title": {
+          "tr": "Tüm projeler",
+          "en": "All projects",
+          "ar": "كل المشاريع"
+        },
+        "description": {
+          "tr": "Tamamlanan, devam eden ve yakında başlayacak tüm projelerimiz. Konut projelerinde taahhüt edilen teslim süresi en fazla 48 aydır. Görseller temsilidir.",
+          "en": "All our completed, ongoing and upcoming projects. For residential projects the committed delivery period is at most 48 months. Images are representative.",
+          "ar": "جميع مشاريعنا المنجزة والجارية والقادمة. مدة التسليم المتعهَّد بها للمشاريع السكنية 48 شهرًا كحدٍّ أقصى. الصور تمثيلية."
+        },
+        "searchLabel": {
+          "tr": "Projelerde ara",
+          "en": "Search projects",
+          "ar": "البحث في المشاريع"
+        },
+        "searchPlaceholder": {
+          "tr": "Proje, konum veya yıl ara…",
+          "en": "Search project, place or year…",
+          "ar": "ابحث عن مشروع أو موقع أو سنة…"
+        },
+        "allLabel": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "filterLabel": {
+          "tr": "Kategoriye göre filtrele",
+          "en": "Filter by category",
+          "ar": "التصفية حسب الفئة"
+        },
+        "statusFieldLabel": {
+          "tr": "Durum",
+          "en": "Status",
+          "ar": "الحالة"
+        },
+        "allStatusLabel": {
+          "tr": "Tüm durumlar",
+          "en": "All statuses",
+          "ar": "كل الحالات"
+        },
+        "sortFieldLabel": {
+          "tr": "Sıralama",
+          "en": "Sort by",
+          "ar": "الترتيب"
+        },
+        "sortYearLabel": {
+          "tr": "Yıl (yeniden eskiye)",
+          "en": "Year (newest first)",
+          "ar": "السنة (الأحدث أولًا)"
+        },
+        "sortTitleLabel": {
+          "tr": "Ad (A → Z)",
+          "en": "Name (A → Z)",
+          "ar": "الاسم (أبجديًا)"
+        },
+        "detailLabel": {
+          "tr": "Detayı incele",
+          "en": "View details",
+          "ar": "عرض التفاصيل"
+        },
+        "yearLabel": {
+          "tr": "Yıl",
+          "en": "Year",
+          "ar": "السنة"
+        },
+        "clearLabel": {
+          "tr": "Filtreleri temizle",
+          "en": "Clear filters",
+          "ar": "مسح عوامل التصفية"
+        },
+        "emptyText": {
+          "tr": "Aramanıza uyan proje bulunamadı. Filtreleri değiştirmeyi deneyin.",
+          "en": "No projects match your search. Try changing the filters.",
+          "ar": "لم نعثر على مشاريع مطابقة لبحثك. جرّب تغيير عوامل التصفية."
+        },
+        "countText": {
+          "zero": {
+            "ar": "لا توجد مشاريع"
+          },
+          "one": {
+            "tr": "{n} proje",
+            "en": "{n} project",
+            "ar": "مشروع واحد"
+          },
+          "two": {
+            "ar": "مشروعان"
+          },
+          "few": {
+            "ar": "{n} مشاريع"
+          },
+          "many": {
+            "ar": "{n} مشروعًا"
+          },
+          "other": {
+            "tr": "{n} proje",
+            "en": "{n} projects",
+            "ar": "{n} مشروع"
+          }
+        },
+        "statusLabels": {
+          "devam": {
+            "tr": "Devam ediyor",
+            "en": "In progress",
+            "ar": "قيد التنفيذ"
+          },
+          "tamam": {
+            "tr": "Tamamlandı",
+            "en": "Completed",
+            "ar": "مكتمل"
+          },
+          "yakinda": {
+            "tr": "Yakında",
+            "en": "Coming soon",
+            "ar": "قريبًا"
+          }
+        },
+        "cats": [
+          {
+            "id": "konut",
+            "name": {
+              "tr": "Konut",
+              "en": "Residential",
+              "ar": "سكني"
+            }
+          },
+          {
+            "id": "ticari",
+            "name": {
+              "tr": "Ticari",
+              "en": "Commercial",
+              "ar": "تجاري"
+            }
+          }
+        ]
+      },
+      "version": "1.0.0",
+      "icon": "domain",
+      "data": [
+        {
+          "id": "vadi-konutlari",
+          "title": {
+            "tr": "Vadi Konutları",
+            "en": "Vadi Residences",
+            "ar": "مساكن الوادي"
+          },
+          "cat": "konut",
+          "year": 2027,
+          "status": "devam",
+          "img": "insaat-proje-5.webp",
+          "meta": [
+            {
+              "k": {
+                "tr": "Toplam inşaat alanı",
+                "en": "Total construction area",
+                "ar": "إجمالي مساحة البناء"
+              },
+              "v": "18.600 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Şehitkamil",
+                "en": "Sehitkamil",
+                "ar": "شهيد كامل"
+              }
+            },
+            {
+              "k": {
+                "tr": "Taahhüt edilen teslim",
+                "en": "Committed delivery",
+                "ar": "موعد التسليم المتعهَّد به"
+              },
+              "v": {
+                "tr": "30 ay",
+                "en": "30 months",
+                "ar": "30 شهرًا"
+              }
+            }
+          ]
+        },
+        {
+          "id": "park-evleri",
+          "title": {
+            "tr": "Park Evleri",
+            "en": "Park Homes",
+            "ar": "منازل الحديقة"
+          },
+          "cat": "konut",
+          "year": 2026,
+          "status": "devam",
+          "img": "insaat-proje-1.webp",
+          "meta": [
+            {
+              "k": {
+                "tr": "Toplam inşaat alanı",
+                "en": "Total construction area",
+                "ar": "إجمالي مساحة البناء"
+              },
+              "v": "9.400 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Şahinbey",
+                "en": "Sahinbey",
+                "ar": "شاهين بي"
+              }
+            },
+            {
+              "k": {
+                "tr": "Taahhüt edilen teslim",
+                "en": "Committed delivery",
+                "ar": "موعد التسليم المتعهَّد به"
+              },
+              "v": {
+                "tr": "24 ay",
+                "en": "24 months",
+                "ar": "24 شهرًا"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cinar-evleri",
+          "title": {
+            "tr": "Çınar Evleri",
+            "en": "Cinar Homes",
+            "ar": "منازل الدلب"
+          },
+          "cat": "konut",
+          "year": 2028,
+          "status": "yakinda",
+          "img": "insaat-ilerleme-4.webp",
+          "meta": [
+            {
+              "k": {
+                "tr": "Toplam inşaat alanı",
+                "en": "Total construction area",
+                "ar": "إجمالي مساحة البناء"
+              },
+              "v": "6.200 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Oğuzeli",
+                "en": "Oguzeli",
+                "ar": "أوغوزيلي"
+              }
+            },
+            {
+              "k": {
+                "tr": "Taahhüt edilen teslim",
+                "en": "Committed delivery",
+                "ar": "موعد التسليم المتعهَّد به"
+              },
+              "v": {
+                "tr": "36 ay",
+                "en": "36 months",
+                "ar": "36 شهرًا"
+              }
+            }
+          ]
+        },
+        {
+          "id": "bahceli-villalar",
+          "title": {
+            "tr": "Bahçeli Villalar",
+            "en": "Garden Villas",
+            "ar": "الفيلات ذات الحدائق"
+          },
+          "cat": "konut",
+          "year": 2024,
+          "status": "tamam",
+          "img": "insaat-proje-3.webp",
+          "meta": [
+            {
+              "k": {
+                "tr": "Toplam inşaat alanı",
+                "en": "Total construction area",
+                "ar": "إجمالي مساحة البناء"
+              },
+              "v": "7.800 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Şehitkamil",
+                "en": "Sehitkamil",
+                "ar": "شهيد كامل"
+              }
+            },
+            {
+              "k": {
+                "tr": "Teslim yılı",
+                "en": "Delivered",
+                "ar": "سنة التسليم"
+              },
+              "v": "2024"
+            }
+          ]
+        },
+        {
+          "id": "meridyen-is-kulesi",
+          "title": {
+            "tr": "Meridyen İş Kulesi",
+            "en": "Meridyen Business Tower",
+            "ar": "برج ميريديان للأعمال"
+          },
+          "cat": "ticari",
+          "year": 2023,
+          "status": "tamam",
+          "img": "insaat-proje-2.webp",
+          "meta": [
+            {
+              "k": {
+                "tr": "Toplam inşaat alanı",
+                "en": "Total construction area",
+                "ar": "إجمالي مساحة البناء"
+              },
+              "v": "14.300 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Şahinbey",
+                "en": "Sahinbey",
+                "ar": "شاهين بي"
+              }
+            },
+            {
+              "k": {
+                "tr": "Teslim yılı",
+                "en": "Delivered",
+                "ar": "سنة التسليم"
+              },
+              "v": "2023"
+            }
+          ]
+        },
+        {
+          "id": "kervan-carsi",
+          "title": {
+            "tr": "Kervan Çarşı",
+            "en": "Kervan Bazaar",
+            "ar": "سوق كرفان"
+          },
+          "cat": "ticari",
+          "year": 2025,
+          "status": "tamam",
+          "img": "insaat-proje-4.webp",
+          "meta": [
+            {
+              "k": {
+                "tr": "Toplam inşaat alanı",
+                "en": "Total construction area",
+                "ar": "إجمالي مساحة البناء"
+              },
+              "v": "11.250 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Şehitkamil",
+                "en": "Sehitkamil",
+                "ar": "شهيد كامل"
+              }
+            },
+            {
+              "k": {
+                "tr": "Teslim yılı",
+                "en": "Delivered",
+                "ar": "سنة التسليم"
+              },
+              "v": "2025"
+            }
+          ]
+        }
+      ],
+      "index": 11
+    },
+    {
+      "name": "Demo Kredi Şeridi",
+      "description": "Demo sitelerin alt bilgisinde duran kredi şeridi: «Bu demo Webyapar tarafından hazırlanmıştır — Bu temayı iste». Marka adı çevrilmez (Latin, dir=ltr izole), bağlantı demo adına göre webyapar.com/temalar#<slug>. Üç dil (TR/EN/AR), mantıksal CSS (RTL), mobilde sarar, reduced-motion'a saygılı.",
+      "version": "1.0.0",
+      "icon": "campaign",
+      "category": "demo",
+      "tags": [
+        "demo",
+        "footer",
+        "kredi",
+        "rtl"
+      ],
+      "desing": {
+        "href": "https://webyapar.com/temalar#insaat",
+        "brand": "Webyapar",
+        "text": {
+          "tr": "Bu demo {brand} tarafından hazırlanmıştır —",
+          "en": "This demo was prepared by {brand} —",
+          "ar": "تم إعداد هذا العرض التجريبي بواسطة {brand} —"
+        },
+        "ctaText": {
+          "tr": "Bu temayı iste",
+          "en": "Get this theme",
+          "ar": "اطلب هذا القالب"
+        },
+        "newTabText": {
+          "tr": "(yeni sekmede açılır)",
+          "en": "(opens in a new tab)",
+          "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "ariaLabel": {
+          "tr": "Demo bilgisi",
+          "en": "Demo credit",
+          "ar": "معلومات العرض التجريبي"
+        }
+      },
+      "id": "8ujvyj",
+      "path": "demo-kredi",
+      "local": "footer",
+      "data": [],
+      "index": 12
+    },
+    {
+      "name": "Hero 1",
+      "desing": {
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #b3410c) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #b3410c) 24%, #000))",
+        "overlay": "linear-gradient(135deg, rgba(0,0,0,.62), rgba(0,0,0,.34))",
+        "title_accent": "linear-gradient(135deg, #ffffff, #ffffff)",
+        "btn_primary_bg": "var(--mx-site-primary, #b3410c)",
+        "btn_primary_color": "var(--mx-site-primary-contrast, #ffffff)",
+        "stat_accent": "#ffffff",
+        "shape1": "linear-gradient(135deg, rgba(222, 109, 38, 0.4), rgba(222, 109, 38, 0.12))",
+        "shape2": "linear-gradient(135deg, rgba(42, 69, 96, 0.55), rgba(30, 48, 70, 0.25))",
+        "shape3": "linear-gradient(135deg, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.04))",
+        "title": {
+          "tr": "Güvenle inşa ediyoruz",
+          "en": "We build with confidence",
+          "ar": "نبني بثقة"
+        },
+        "description": {
+          "tr": "Planlı süreç, şeffaf ilerleme ve sözleşmeyle taahhüt ettiğimiz sürede teslim. Görseller temsilidir.",
+          "en": "A planned process, transparent progress and delivery within the period we commit to in the contract. Images are representative.",
+          "ar": "عملية مخططة وتقدّم شفاف وتسليم خلال المدة التي نتعهّد بها في العقد. الصور تمثيلية."
+        },
+        "badge": {
+          "tr": "Konut ve ticari projeler",
+          "en": "Residential and commercial projects",
+          "ar": "مشاريع سكنية وتجارية"
+        },
+        "image": "/img/insaat-hero-santiye.webp",
+        "alt": {
+          "tr": "Vinçli konut şantiyesi (görsel temsilidir)",
+          "en": "Residential construction site with a crane (representative image)",
+          "ar": "موقع بناء سكني برافعة (الصورة تمثيلية)"
+        },
+        "btn1": {
+          "tr": "Projeleri gör",
+          "en": "View projects",
+          "ar": "استعرض المشاريع"
+        },
+        "btn1_url": "projelerimiz",
+        "btn2": {
+          "tr": "Teklif al",
+          "en": "Get a quote",
+          "ar": "اطلب عرض سعر"
+        },
+        "btn2_url": "teklif-al",
+        "stats": {
+          "tr": "42|Tamamlanan proje|3.200|Teslim edilen konut|18|Yıllık deneyim",
+          "en": "42|Completed projects|3,200|Homes delivered|18|Years of experience",
+          "ar": "42|مشروعًا منجزًا|3.200|وحدة سكنية مسلَّمة|18|سنة من الخبرة"
+        }
+      },
+      "category": "hero",
+      "description": "Gradient hero: istatistikler, CTA, görsel alanı. Metinler cok dilli (tr/en); renkler --gradient--, --btn_primary_bg-- ile markaya uyumlanır. Buton URL pathnext (urunler, iletisim).",
+      "version": "1.1.0",
+      "icon": "hero",
+      "id": "7jwh86",
+      "path": "hero-1",
+      "local": "body",
+      "data": [],
+      "index": 13
+    },
+    {
+      "name": "Proje Kartları (Filtre + Arama)",
+      "description": "Proje/portföy kartları: başlık, yıl, rozetler (m²/konum meta[{k,v}] — k/v çok dilli), durum rozeti (devam/tamam/yakında — renk + ikon + metin), kategori çipleri, durum seçici, metin arama (tr/ar normalleştirme), sıralama (year|title), sonuç sayısı (Arapça 6 çoğul form), boş sonuç durumu ve ?q=&cat=&status=&sort= URL durumu. Projeler data[] içinde {id,title{tr,en,ar},cat,year,status,meta[],img,url}; kategoriler desing.cats[]. url bir site yolu (slug) ise dil önekiyle bağlanır. Üç dil + RTL.",
+      "version": "1.0.0",
+      "icon": "domain",
+      "category": "proje",
+      "tags": [
+        "proje",
+        "portfolyo",
+        "referans",
+        "filtre",
+        "arama",
+        "projects"
+      ],
+      "desing": {
+        "max": "1280px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "statusDevam": "#b45309",
+        "statusTamam": "#15803d",
+        "statusYakinda": "#1d4ed8",
+        "gap": "20px",
+        "radius": "14px",
+        "columns": {
+          "d": 3,
+          "t": 2,
+          "m": 1
+        },
+        "ratio": "4:3",
+        "search": true,
+        "sort": "year",
+        "sortSelect": true,
+        "urlPrefix": "",
+        "title": {
+          "tr": "Devam eden projeler",
+          "en": "Ongoing projects",
+          "ar": "المشاريع الجارية"
+        },
+        "description": {
+          "tr": "Şu anda yürüttüğümüz ve yakında başlayacak projeler. Konut projelerinde sözleşmeyle taahhüt edilen teslim süresi en fazla 48 aydır.",
+          "en": "Projects under way and those starting soon. For residential projects the delivery period committed in the contract is at most 48 months.",
+          "ar": "المشاريع التي ننفذها حاليًا وتلك التي ستبدأ قريبًا. مدة التسليم المتعهَّد بها في العقد للمشاريع السكنية 48 شهرًا كحدٍّ أقصى."
+        },
+        "searchLabel": {
+          "tr": "Projelerde ara",
+          "en": "Search projects",
+          "ar": "البحث في المشاريع"
+        },
+        "searchPlaceholder": {
+          "tr": "Proje, konum veya yıl ara…",
+          "en": "Search project, place or year…",
+          "ar": "ابحث عن مشروع أو موقع أو سنة…"
+        },
+        "allLabel": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "filterLabel": {
+          "tr": "Kategoriye göre filtrele",
+          "en": "Filter by category",
+          "ar": "التصفية حسب الفئة"
+        },
+        "statusFieldLabel": {
+          "tr": "Durum",
+          "en": "Status",
+          "ar": "الحالة"
+        },
+        "allStatusLabel": {
+          "tr": "Tüm durumlar",
+          "en": "All statuses",
+          "ar": "كل الحالات"
+        },
+        "sortFieldLabel": {
+          "tr": "Sıralama",
+          "en": "Sort by",
+          "ar": "الترتيب"
+        },
+        "sortYearLabel": {
+          "tr": "Yıl (yeniden eskiye)",
+          "en": "Year (newest first)",
+          "ar": "السنة (الأحدث أولًا)"
+        },
+        "sortTitleLabel": {
+          "tr": "Ad (A → Z)",
+          "en": "Name (A → Z)",
+          "ar": "الاسم (أبجديًا)"
+        },
+        "detailLabel": {
+          "tr": "Detayı incele",
+          "en": "View details",
+          "ar": "عرض التفاصيل"
+        },
+        "yearLabel": {
+          "tr": "Yıl",
+          "en": "Year",
+          "ar": "السنة"
+        },
+        "clearLabel": {
+          "tr": "Filtreleri temizle",
+          "en": "Clear filters",
+          "ar": "مسح عوامل التصفية"
+        },
+        "emptyText": {
+          "tr": "Aramanıza uyan proje bulunamadı. Filtreleri değiştirmeyi deneyin.",
+          "en": "No projects match your search. Try changing the filters.",
+          "ar": "لم نعثر على مشاريع مطابقة لبحثك. جرّب تغيير عوامل التصفية."
+        },
+        "countText": {
+          "zero": {
+            "ar": "لا توجد مشاريع"
+          },
+          "one": {
+            "tr": "{n} proje",
+            "en": "{n} project",
+            "ar": "مشروع واحد"
+          },
+          "two": {
+            "ar": "مشروعان"
+          },
+          "few": {
+            "ar": "{n} مشاريع"
+          },
+          "many": {
+            "ar": "{n} مشروعًا"
+          },
+          "other": {
+            "tr": "{n} proje",
+            "en": "{n} projects",
+            "ar": "{n} مشروع"
+          }
+        },
+        "statusLabels": {
+          "devam": {
+            "tr": "Devam ediyor",
+            "en": "In progress",
+            "ar": "قيد التنفيذ"
+          },
+          "tamam": {
+            "tr": "Tamamlandı",
+            "en": "Completed",
+            "ar": "مكتمل"
+          },
+          "yakinda": {
+            "tr": "Yakında",
+            "en": "Coming soon",
+            "ar": "قريبًا"
+          }
+        },
+        "cats": [
+          {
+            "id": "konut",
+            "name": {
+              "tr": "Konut",
+              "en": "Residential",
+              "ar": "سكني"
+            }
+          },
+          {
+            "id": "ticari",
+            "name": {
+              "tr": "Ticari",
+              "en": "Commercial",
+              "ar": "تجاري"
+            }
+          }
+        ]
+      },
+      "data": [
+        {
+          "id": "vadi-konutlari",
+          "title": {
+            "tr": "Vadi Konutları",
+            "en": "Vadi Residences",
+            "ar": "مساكن الوادي"
+          },
+          "cat": "konut",
+          "year": 2027,
+          "status": "devam",
+          "img": "insaat-proje-5.webp",
+          "meta": [
+            {
+              "k": {
+                "tr": "Toplam inşaat alanı",
+                "en": "Total construction area",
+                "ar": "إجمالي مساحة البناء"
+              },
+              "v": "18.600 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Şehitkamil",
+                "en": "Sehitkamil",
+                "ar": "شهيد كامل"
+              }
+            },
+            {
+              "k": {
+                "tr": "Taahhüt edilen teslim",
+                "en": "Committed delivery",
+                "ar": "موعد التسليم المتعهَّد به"
+              },
+              "v": {
+                "tr": "30 ay",
+                "en": "30 months",
+                "ar": "30 شهرًا"
+              }
+            }
+          ]
+        },
+        {
+          "id": "park-evleri",
+          "title": {
+            "tr": "Park Evleri",
+            "en": "Park Homes",
+            "ar": "منازل الحديقة"
+          },
+          "cat": "konut",
+          "year": 2026,
+          "status": "devam",
+          "img": "insaat-proje-1.webp",
+          "meta": [
+            {
+              "k": {
+                "tr": "Toplam inşaat alanı",
+                "en": "Total construction area",
+                "ar": "إجمالي مساحة البناء"
+              },
+              "v": "9.400 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Şahinbey",
+                "en": "Sahinbey",
+                "ar": "شاهين بي"
+              }
+            },
+            {
+              "k": {
+                "tr": "Taahhüt edilen teslim",
+                "en": "Committed delivery",
+                "ar": "موعد التسليم المتعهَّد به"
+              },
+              "v": {
+                "tr": "24 ay",
+                "en": "24 months",
+                "ar": "24 شهرًا"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cinar-evleri",
+          "title": {
+            "tr": "Çınar Evleri",
+            "en": "Cinar Homes",
+            "ar": "منازل الدلب"
+          },
+          "cat": "konut",
+          "year": 2028,
+          "status": "yakinda",
+          "img": "insaat-ilerleme-4.webp",
+          "meta": [
+            {
+              "k": {
+                "tr": "Toplam inşaat alanı",
+                "en": "Total construction area",
+                "ar": "إجمالي مساحة البناء"
+              },
+              "v": "6.200 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Oğuzeli",
+                "en": "Oguzeli",
+                "ar": "أوغوزيلي"
+              }
+            },
+            {
+              "k": {
+                "tr": "Taahhüt edilen teslim",
+                "en": "Committed delivery",
+                "ar": "موعد التسليم المتعهَّد به"
+              },
+              "v": {
+                "tr": "36 ay",
+                "en": "36 months",
+                "ar": "36 شهرًا"
+              }
+            }
+          ]
+        }
+      ],
+      "id": "vpdi33",
+      "path": "proje-kart-filtre",
+      "local": "body",
+      "index": 14
+    },
+    {
+      "name": "Proje Kartları (Filtre + Arama)",
+      "description": "Proje/portföy kartları: başlık, yıl, rozetler (m²/konum meta[{k,v}] — k/v çok dilli), durum rozeti (devam/tamam/yakında — renk + ikon + metin), kategori çipleri, durum seçici, metin arama (tr/ar normalleştirme), sıralama (year|title), sonuç sayısı (Arapça 6 çoğul form), boş sonuç durumu ve ?q=&cat=&status=&sort= URL durumu. Projeler data[] içinde {id,title{tr,en,ar},cat,year,status,meta[],img,url}; kategoriler desing.cats[]. url bir site yolu (slug) ise dil önekiyle bağlanır. Üç dil + RTL.",
+      "version": "1.0.0",
+      "icon": "domain",
+      "category": "proje",
+      "tags": [
+        "proje",
+        "portfolyo",
+        "referans",
+        "filtre",
+        "arama",
+        "projects"
+      ],
+      "desing": {
+        "max": "1280px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "statusDevam": "#b45309",
+        "statusTamam": "#15803d",
+        "statusYakinda": "#1d4ed8",
+        "gap": "20px",
+        "radius": "14px",
+        "columns": {
+          "d": 3,
+          "t": 2,
+          "m": 1
+        },
+        "ratio": "4:3",
+        "search": true,
+        "sort": "year",
+        "sortSelect": true,
+        "urlPrefix": "",
+        "title": {
+          "tr": "Tamamlanan projeler",
+          "en": "Completed projects",
+          "ar": "المشاريع المنجزة"
+        },
+        "description": {
+          "tr": "Teslim ettiğimiz konut ve ticari projeler. Görseller temsilidir.",
+          "en": "Residential and commercial projects we have delivered. Images are representative.",
+          "ar": "المشاريع السكنية والتجارية التي سلّمناها. الصور تمثيلية."
+        },
+        "searchLabel": {
+          "tr": "Projelerde ara",
+          "en": "Search projects",
+          "ar": "البحث في المشاريع"
+        },
+        "searchPlaceholder": {
+          "tr": "Proje, konum veya yıl ara…",
+          "en": "Search project, place or year…",
+          "ar": "ابحث عن مشروع أو موقع أو سنة…"
+        },
+        "allLabel": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "filterLabel": {
+          "tr": "Kategoriye göre filtrele",
+          "en": "Filter by category",
+          "ar": "التصفية حسب الفئة"
+        },
+        "statusFieldLabel": {
+          "tr": "Durum",
+          "en": "Status",
+          "ar": "الحالة"
+        },
+        "allStatusLabel": {
+          "tr": "Tüm durumlar",
+          "en": "All statuses",
+          "ar": "كل الحالات"
+        },
+        "sortFieldLabel": {
+          "tr": "Sıralama",
+          "en": "Sort by",
+          "ar": "الترتيب"
+        },
+        "sortYearLabel": {
+          "tr": "Yıl (yeniden eskiye)",
+          "en": "Year (newest first)",
+          "ar": "السنة (الأحدث أولًا)"
+        },
+        "sortTitleLabel": {
+          "tr": "Ad (A → Z)",
+          "en": "Name (A → Z)",
+          "ar": "الاسم (أبجديًا)"
+        },
+        "detailLabel": {
+          "tr": "Detayı incele",
+          "en": "View details",
+          "ar": "عرض التفاصيل"
+        },
+        "yearLabel": {
+          "tr": "Yıl",
+          "en": "Year",
+          "ar": "السنة"
+        },
+        "clearLabel": {
+          "tr": "Filtreleri temizle",
+          "en": "Clear filters",
+          "ar": "مسح عوامل التصفية"
+        },
+        "emptyText": {
+          "tr": "Aramanıza uyan proje bulunamadı. Filtreleri değiştirmeyi deneyin.",
+          "en": "No projects match your search. Try changing the filters.",
+          "ar": "لم نعثر على مشاريع مطابقة لبحثك. جرّب تغيير عوامل التصفية."
+        },
+        "countText": {
+          "zero": {
+            "ar": "لا توجد مشاريع"
+          },
+          "one": {
+            "tr": "{n} proje",
+            "en": "{n} project",
+            "ar": "مشروع واحد"
+          },
+          "two": {
+            "ar": "مشروعان"
+          },
+          "few": {
+            "ar": "{n} مشاريع"
+          },
+          "many": {
+            "ar": "{n} مشروعًا"
+          },
+          "other": {
+            "tr": "{n} proje",
+            "en": "{n} projects",
+            "ar": "{n} مشروع"
+          }
+        },
+        "statusLabels": {
+          "devam": {
+            "tr": "Devam ediyor",
+            "en": "In progress",
+            "ar": "قيد التنفيذ"
+          },
+          "tamam": {
+            "tr": "Tamamlandı",
+            "en": "Completed",
+            "ar": "مكتمل"
+          },
+          "yakinda": {
+            "tr": "Yakında",
+            "en": "Coming soon",
+            "ar": "قريبًا"
+          }
+        },
+        "cats": [
+          {
+            "id": "konut",
+            "name": {
+              "tr": "Konut",
+              "en": "Residential",
+              "ar": "سكني"
+            }
+          },
+          {
+            "id": "ticari",
+            "name": {
+              "tr": "Ticari",
+              "en": "Commercial",
+              "ar": "تجاري"
+            }
+          }
+        ]
+      },
+      "data": [
+        {
+          "id": "bahceli-villalar",
+          "title": {
+            "tr": "Bahçeli Villalar",
+            "en": "Garden Villas",
+            "ar": "الفيلات ذات الحدائق"
+          },
+          "cat": "konut",
+          "year": 2024,
+          "status": "tamam",
+          "img": "insaat-proje-3.webp",
+          "meta": [
+            {
+              "k": {
+                "tr": "Toplam inşaat alanı",
+                "en": "Total construction area",
+                "ar": "إجمالي مساحة البناء"
+              },
+              "v": "7.800 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Şehitkamil",
+                "en": "Sehitkamil",
+                "ar": "شهيد كامل"
+              }
+            },
+            {
+              "k": {
+                "tr": "Teslim yılı",
+                "en": "Delivered",
+                "ar": "سنة التسليم"
+              },
+              "v": "2024"
+            }
+          ]
+        },
+        {
+          "id": "meridyen-is-kulesi",
+          "title": {
+            "tr": "Meridyen İş Kulesi",
+            "en": "Meridyen Business Tower",
+            "ar": "برج ميريديان للأعمال"
+          },
+          "cat": "ticari",
+          "year": 2023,
+          "status": "tamam",
+          "img": "insaat-proje-2.webp",
+          "meta": [
+            {
+              "k": {
+                "tr": "Toplam inşaat alanı",
+                "en": "Total construction area",
+                "ar": "إجمالي مساحة البناء"
+              },
+              "v": "14.300 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Şahinbey",
+                "en": "Sahinbey",
+                "ar": "شاهين بي"
+              }
+            },
+            {
+              "k": {
+                "tr": "Teslim yılı",
+                "en": "Delivered",
+                "ar": "سنة التسليم"
+              },
+              "v": "2023"
+            }
+          ]
+        },
+        {
+          "id": "kervan-carsi",
+          "title": {
+            "tr": "Kervan Çarşı",
+            "en": "Kervan Bazaar",
+            "ar": "سوق كرفان"
+          },
+          "cat": "ticari",
+          "year": 2025,
+          "status": "tamam",
+          "img": "insaat-proje-4.webp",
+          "meta": [
+            {
+              "k": {
+                "tr": "Toplam inşaat alanı",
+                "en": "Total construction area",
+                "ar": "إجمالي مساحة البناء"
+              },
+              "v": "11.250 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Şehitkamil",
+                "en": "Sehitkamil",
+                "ar": "شهيد كامل"
+              }
+            },
+            {
+              "k": {
+                "tr": "Teslim yılı",
+                "en": "Delivered",
+                "ar": "سنة التسليم"
+              },
+              "v": "2025"
+            }
+          ]
+        }
+      ],
+      "id": "2qlxpn",
+      "path": "proje-kart-filtre",
+      "local": "body",
+      "index": 15
+    },
+    {
+      "name": "Önce / Sonra Karşılaştırma",
+      "description": "Önce/sonra karşılaştırma kaydırıcısı: klavye erişilebilir input[type=range] (aria-label üç dilli, RTL'de «önce» tarafı sağda), yatay/dikey yön, başlangıç konumu, çiftler arası gezinme, lightbox ile büyütme. mode:\"ilerleme\" ile inşaat/dönüşüm zaman şeridi (pairs sıralı tarih etiketli kareler; aynı kaydırıcı kareler arasında gezdirir, oynat düğmesi). pairs[{before,after,title{tr,en,ar},note{},date?}]. SAĞLIK sektöründe (klinik, diş, estetik, tedavi sonuçları) KULLANILMAZ: tıbbi önce/sonra görselleri mevzuat gereği yasaktır; güzellik (tıbbi olmayan), inşaat, dekorasyon ve yenileme işleri içindir. Üç dil + RTL.",
+      "version": "1.0.0",
+      "icon": "compare",
+      "category": "galeri",
+      "tags": [
+        "önce sonra",
+        "karşılaştırma",
+        "before after",
+        "ilerleme",
+        "dönüşüm",
+        "compare"
+      ],
+      "desing": {
+        "max": "960px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "radius": "14px",
+        "ratio": "4:3",
+        "mode": "ilerleme",
+        "orientation": "h",
+        "start": 50,
+        "lightbox": true,
+        "playMs": 1500,
+        "title": {
+          "tr": "Aynı kadraj, dört aşama",
+          "en": "One viewpoint, four stages",
+          "ar": "زاوية واحدة وأربع مراحل"
+        },
+        "description": {
+          "tr": "Bir konut projesinin 24 aylık ilerlemesi, her aşamada aynı noktadan çekilmiş kareyle. Kaydırıcıyı sürükleyin ya da oynat düğmesini kullanın. Görseller temsilidir.",
+          "en": "The 24-month progress of a residential project, shot from the same spot at every stage. Drag the slider or press play. Images are representative.",
+          "ar": "تقدّم مشروع سكني على مدى 24 شهرًا، بلقطة من النقطة نفسها في كل مرحلة. اسحب المؤشر أو اضغط زر التشغيل. الصور تمثيلية."
+        },
+        "labels": {
+          "before": {
+            "tr": "Önce",
+            "en": "Before",
+            "ar": "قبل"
+          },
+          "after": {
+            "tr": "Sonra",
+            "en": "After",
+            "ar": "بعد"
+          }
+        },
+        "sliderLabel": {
+          "tr": "Önce ve sonra görsellerini karşılaştıran kaydırıcı",
+          "en": "Slider comparing the before and after images",
+          "ar": "مؤشر لمقارنة صورتَي قبل وبعد"
+        },
+        "valueText": {
+          "tr": "Önce görseli yüzde {v} oranında gösteriliyor",
+          "en": "The before image is shown at {v} percent",
+          "ar": "تُعرض صورة «قبل» بنسبة {v}%"
+        },
+        "progressLabel": {
+          "tr": "Zaman çizelgesi kaydırıcısı",
+          "en": "Timeline slider",
+          "ar": "مؤشر الخط الزمني"
+        },
+        "frameText": {
+          "tr": "{i} / {n}: {label}",
+          "en": "{i} / {n}: {label}",
+          "ar": "{i} من {n}: {label}"
+        },
+        "timelineLabel": {
+          "tr": "Zaman çizelgesi",
+          "en": "Timeline",
+          "ar": "الخط الزمني"
+        },
+        "counterText": {
+          "tr": "{i} / {n}",
+          "en": "{i} / {n}",
+          "ar": "{i} من {n}"
+        },
+        "prevLabel": {
+          "tr": "Önceki çift",
+          "en": "Previous pair",
+          "ar": "الزوج السابق"
+        },
+        "nextLabel": {
+          "tr": "Sonraki çift",
+          "en": "Next pair",
+          "ar": "الزوج التالي"
+        },
+        "playLabel": {
+          "tr": "Oynat",
+          "en": "Play",
+          "ar": "تشغيل"
+        },
+        "pauseLabel": {
+          "tr": "Duraklat",
+          "en": "Pause",
+          "ar": "إيقاف مؤقت"
+        },
+        "enlargeLabel": {
+          "tr": "Görselleri büyüt",
+          "en": "Enlarge images",
+          "ar": "تكبير الصور"
+        },
+        "emptyText": {
+          "tr": "Gösterilecek karşılaştırma yok.",
+          "en": "There is nothing to compare yet.",
+          "ar": "لا توجد مقارنات لعرضها."
+        },
+        "lightboxLabels": {
+          "dialog": {
+            "tr": "Görsel görüntüleyici",
+            "en": "Image viewer",
+            "ar": "عارض الصور"
+          },
+          "close": {
+            "tr": "Kapat",
+            "en": "Close",
+            "ar": "إغلاق"
+          },
+          "prev": {
+            "tr": "Önceki görsel",
+            "en": "Previous image",
+            "ar": "الصورة السابقة"
+          },
+          "next": {
+            "tr": "Sonraki görsel",
+            "en": "Next image",
+            "ar": "الصورة التالية"
+          },
+          "counter": {
+            "tr": "{i} / {n}",
+            "en": "{i} / {n}",
+            "ar": "{i} من {n}"
+          }
+        }
+      },
+      "data": [
+        {
+          "after": "insaat-ilerleme-1.webp",
+          "title": {
+            "tr": "1. aşama — Arsa hazırlığı",
+            "en": "Stage 1 — Site preparation",
+            "ar": "المرحلة 1 — تجهيز الموقع"
+          },
+          "date": {
+            "tr": "Ay 1",
+            "en": "Month 1",
+            "ar": "الشهر 1"
+          },
+          "note": {
+            "tr": "Hafriyat, aplikasyon ve şantiye çiti tamamlandı.",
+            "en": "Excavation, surveying and site fencing completed.",
+            "ar": "اكتملت الحفريات وأعمال المساحة وسياج الموقع."
+          }
+        },
+        {
+          "after": "insaat-ilerleme-2.webp",
+          "title": {
+            "tr": "2. aşama — Temel ve donatı",
+            "en": "Stage 2 — Foundation and rebar",
+            "ar": "المرحلة 2 — الأساسات والتسليح"
+          },
+          "date": {
+            "tr": "Ay 6",
+            "en": "Month 6",
+            "ar": "الشهر 6"
+          },
+          "note": {
+            "tr": "Temel betonu döküldü, kolon donatıları yerleştirildi.",
+            "en": "The foundation slab was poured and column rebar installed.",
+            "ar": "صُبّت لبشة الأساس وتم تركيب حديد الأعمدة."
+          }
+        },
+        {
+          "after": "insaat-ilerleme-3.webp",
+          "title": {
+            "tr": "3. aşama — Betonarme karkas",
+            "en": "Stage 3 — Concrete frame",
+            "ar": "المرحلة 3 — الهيكل الخرساني"
+          },
+          "date": {
+            "tr": "Ay 14",
+            "en": "Month 14",
+            "ar": "الشهر 14"
+          },
+          "note": {
+            "tr": "Kat betonları tamamlandı, iskele kuruldu.",
+            "en": "Floor slabs completed and scaffolding erected.",
+            "ar": "اكتمل صبّ الطوابق ونُصبت السقالات."
+          }
+        },
+        {
+          "after": "insaat-ilerleme-4.webp",
+          "title": {
+            "tr": "4. aşama — Cephe ve teslim hazırlığı",
+            "en": "Stage 4 — Facade and handover",
+            "ar": "المرحلة 4 — الواجهة والتجهيز للتسليم"
+          },
+          "date": {
+            "tr": "Ay 24",
+            "en": "Month 24",
+            "ar": "الشهر 24"
+          },
+          "note": {
+            "tr": "Cephe, doğrama ve çevre düzeni bitti; teslim öncesi kontroller yapılıyor.",
+            "en": "Facade, joinery and landscaping finished; pre-handover checks are under way.",
+            "ar": "انتهت الواجهة والنجارة وتنسيق الموقع، وتجري فحوصات ما قبل التسليم."
+          }
+        }
+      ],
+      "id": "hnxz34",
+      "path": "onceki-sonra",
+      "local": "body",
+      "index": 16
+    },
+    {
+      "name": "Kurumsal Değerler 1",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "accent": "var(--mx-site-primary, #b3410c)",
+        "titlecolor": "var(--mx-site-text, #1b1b1b)",
+        "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 78%, var(--mx-site-bg, #ffffff))",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "badge": {
+          "tr": "Belgelerimiz",
+          "en": "Our certificates",
+          "ar": "شهاداتنا"
+        },
+        "title": {
+          "tr": "Kalite ve yetki belgelerimiz",
+          "en": "Our quality and authorisation certificates",
+          "ar": "شهادات الجودة والتأهيل لدينا"
+        },
+        "description": {
+          "tr": "Belge numaraları demo amaçlı kurgusaldır; gerçek bir kuruluşa ait değildir.",
+          "en": "Certificate numbers are fictional for demo purposes and do not belong to a real organisation.",
+          "ar": "أرقام الشهادات افتراضية لأغراض العرض التجريبي ولا تعود إلى جهة حقيقية."
+        },
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
+      },
+      "data": [
+        {
+          "icon": "workspace_premium",
+          "name": {
+            "tr": "ISO 9001 Kalite Yönetimi",
+            "en": "ISO 9001 Quality Management",
+            "ar": "إدارة الجودة ISO 9001"
+          },
+          "description": {
+            "tr": "Tasarımdan tesliminden sonraki desteğe kadar belgeli süreçler. Belge no: DEMO-9001.",
+            "en": "Certified processes from design to after-handover support. Certificate no: DEMO-9001.",
+            "ar": "عمليات معتمدة من التصميم حتى الدعم بعد التسليم. رقم الشهادة: DEMO-9001."
+          }
+        },
+        {
+          "icon": "eco",
+          "name": {
+            "tr": "ISO 14001 Çevre Yönetimi",
+            "en": "ISO 14001 Environmental Management",
+            "ar": "الإدارة البيئية ISO 14001"
+          },
+          "description": {
+            "tr": "Atık, toz ve gürültü yönetimi için şantiye prosedürleri. Belge no: DEMO-14001.",
+            "en": "Site procedures for waste, dust and noise management. Certificate no: DEMO-14001.",
+            "ar": "إجراءات الموقع لإدارة النفايات والغبار والضوضاء. رقم الشهادة: DEMO-14001."
+          }
+        },
+        {
+          "icon": "health_and_safety",
+          "name": {
+            "tr": "ISO 45001 İş Sağlığı ve Güvenliği",
+            "en": "ISO 45001 Occupational Health and Safety",
+            "ar": "الصحة والسلامة المهنية ISO 45001"
+          },
+          "description": {
+            "tr": "Her şantiyede iş güvenliği uzmanı, düzenli eğitim ve denetim. Belge no: DEMO-45001.",
+            "en": "A safety specialist on every site, regular training and audits. Certificate no: DEMO-45001.",
+            "ar": "مختص سلامة في كل موقع وتدريب وتدقيق منتظم. رقم الشهادة: DEMO-45001."
+          }
+        },
+        {
+          "icon": "verified",
+          "name": {
+            "tr": "Müteahhitlik yetki belgesi",
+            "en": "Contractor authorisation certificate",
+            "ar": "شهادة تأهيل المقاولين"
+          },
+          "description": {
+            "tr": "Yapı müteahhitliği için gerekli yetki belgesi, her proje için güncel tutulur. Belge no: DEMO-YB-001.",
+            "en": "The contractor authorisation required for building works, kept current for every project. Certificate no: DEMO-YB-001.",
+            "ar": "شهادة التأهيل اللازمة لأعمال المقاولات الإنشائية، وتُحدَّث لكل مشروع. رقم الشهادة: DEMO-YB-001."
+          }
+        },
+        {
+          "icon": "fact_check",
+          "name": {
+            "tr": "Yapı denetim uyumu",
+            "en": "Building inspection compliance",
+            "ar": "الامتثال للإشراف الهندسي"
+          },
+          "description": {
+            "tr": "Tüm projelerde bağımsız yapı denetim kuruluşuyla çalışılır; ruhsat ve iskân süreçleri belgelenir.",
+            "en": "Every project works with an independent inspection body; permit and occupancy processes are documented.",
+            "ar": "نعمل في كل المشاريع مع جهة إشراف هندسي مستقلة، وتُوثَّق إجراءات الرخصة وشهادة الإشغال."
+          }
+        },
+        {
+          "icon": "handshake",
+          "name": {
+            "tr": "Sözleşmeli teslim güvencesi",
+            "en": "Contractual delivery assurance",
+            "ar": "ضمان التسليم التعاقدي"
+          },
+          "description": {
+            "tr": "Teslim tarihi sözleşmede yazılıdır; konut projelerinde süre en fazla 48 aydır.",
+            "en": "The delivery date is written into the contract; for residential projects the period is at most 48 months.",
+            "ar": "موعد التسليم مكتوب في العقد، ومدته في المشاريع السكنية 48 شهرًا كحدٍّ أقصى."
+          }
+        }
+      ],
+      "category": "values",
+      "description": "Kurumsal değer kartları (MLA tarzı dört sütun). Rakam yok; ikon, başlık ve kısa açıklama. Animasyon, mobil tek sütun ve prefers-reduced-motion destekler.",
+      "version": "1.0.0",
+      "icon": "diamond",
+      "id": "4o0fuc",
+      "path": "values-1",
+      "local": "body",
+      "index": 17
+    },
+    {
+      "name": "Tanıtım Modülü",
+      "local": "body",
+      "desing": {
+        "name": {
+          "tr": "Daire tipleri",
+          "en": "Unit types",
+          "ar": "أنواع الشقق"
+        },
+        "description": {
+          "tr": "Her projede 1+1’den 4+1’e kadar farklı daire tipleri sunulur. Aşağıdaki tablo örnek bir proje içindir; net ve brüt alanlar proje bazında değişir. Görseller temsilidir.",
+          "en": "Every project offers unit types from 1+1 to 4+1. The table below is for a sample project; net and gross areas vary by project. Images are representative.",
+          "ar": "يقدّم كل مشروع أنواعًا من الشقق من 1+1 حتى 4+1. الجدول أدناه لمشروع نموذجي، وتختلف المساحات الصافية والإجمالية من مشروع إلى آخر. الصور تمثيلية."
+        },
+        "name2": {
+          "tr": "Net ve brüt alan",
+          "en": "Net and gross area",
+          "ar": "المساحة الصافية والإجمالية"
+        },
+        "spot2": {
+          "tr": "Net alan kullanım alanıdır; brüt alana duvar ve ortak payı dahildir.",
+          "en": "Net area is the usable area; gross area includes walls and a share of common areas.",
+          "ar": "المساحة الصافية هي المساحة القابلة للاستخدام، أما الإجمالية فتشمل الجدران وحصة من الأجزاء المشتركة."
+        },
+        "icon2": "square_foot",
+        "name3": {
+          "tr": "Plan değişikliği",
+          "en": "Plan changes",
+          "ar": "تعديل المخطط"
+        },
+        "spot3": {
+          "tr": "Sözleşme öncesi, uygun katlarda iç mekân düzeni için değişiklik talep edilebilir.",
+          "en": "Before the contract, interior layout changes can be requested on suitable floors.",
+          "ar": "قبل التعاقد يمكن طلب تعديل التوزيع الداخلي في الطوابق المناسبة."
+        },
+        "icon3": "edit_note",
+        "img": "insaat-kat-plani.webp",
+        "bgcolor": "var(--mx-site-surface, #ffffff)",
+        "fontcolor": "var(--mx-site-text, #1b1b1b)",
+        "margintop": "20",
+        "marginbotton": "20",
+        "title": {
+          "tr": "Kat planları",
+          "en": "Floor plans",
+          "ar": "مخططات الطوابق"
+        }
+      },
+      "category": "module",
+      "description": "Kurumsal tanıtım ve hakkımızda modülü. Firma tanıtımı, vizyon, misyon metinlerini görsel ile birlikte sunar. Ana sayfa şeridi ve temalar için varsayılan cok dilli metinler. İki kolonlu responsive tasarım, W2 animasyon ve icon desteği içerir.",
+      "version": "1.1.0",
+      "icon": "business",
+      "id": "t2t4xv",
+      "path": "module-1",
+      "data": [],
+      "index": 18
+    },
+    {
+      "name": "Teknik Özellik Tablosu (Sanayi)",
+      "description": "Sanayi ürün sayfası için teknik özellik tablosu: mobilde yatay kaydırma + yapışkan ilk sütun, TSV olarak panoya kopyalama, yazdırma, isteğe bağlı sütun başlığına tıklayınca sıralama (sortable) ve belge ikonlu indirme bağlantıları (katalog, CE/ISO, çizim). Tablo sunucuda üç dilde çizilir; sayılar tr-TR ayraçlı ve <bdi dir=ltr> içindedir.",
+      "version": "1.0.0",
+      "icon": "table_chart",
+      "category": "page-list",
+      "desing": {
+        "max": "1100px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "sortable": false,
+        "stickyFirst": true,
+        "showCopy": true,
+        "showPrint": true,
+        "title": {
+          "tr": "Örnek daire tipleri",
+          "en": "Sample unit types",
+          "ar": "أنواع الشقق النموذجية"
+        },
+        "tableLabel": {
+          "tr": "Örnek proje daire tipleri ve alanları",
+          "en": "Unit types and areas of a sample project",
+          "ar": "أنواع الشقق ومساحاتها في مشروع نموذجي"
+        },
+        "copyLabel": {
+          "tr": "Tabloyu kopyala",
+          "en": "Copy table",
+          "ar": "انسخ الجدول"
+        },
+        "copiedLabel": {
+          "tr": "Tablo panoya kopyalandı.",
+          "en": "Table copied to clipboard.",
+          "ar": "تم نسخ الجدول إلى الحافظة."
+        },
+        "copyFailLabel": {
+          "tr": "Kopyalanamadı; tabloyu elle seçip kopyalayın.",
+          "en": "Could not copy; please select and copy the table manually.",
+          "ar": "تعذّر النسخ؛ يُرجى تحديد الجدول ونسخه يدويًا."
+        },
+        "printLabel": {
+          "tr": "Yazdır",
+          "en": "Print",
+          "ar": "طباعة"
+        },
+        "sortHint": {
+          "tr": "Sıralamak için sütun başlığına tıklayın.",
+          "en": "Click a column header to sort.",
+          "ar": "انقر على عنوان العمود للترتيب."
+        },
+        "sortedAsc": {
+          "tr": "{col} sütununa göre artan sıralandı.",
+          "en": "Sorted by {col}, ascending.",
+          "ar": "تم الترتيب تصاعديًا حسب العمود {col}."
+        },
+        "sortedDesc": {
+          "tr": "{col} sütununa göre azalan sıralandı.",
+          "en": "Sorted by {col}, descending.",
+          "ar": "تم الترتيب تنازليًا حسب العمود {col}."
+        },
+        "sortBy": {
+          "tr": "Sırala: {col}",
+          "en": "Sort by {col}",
+          "ar": "رتّب حسب {col}"
+        },
+        "downloadsTitle": {
+          "tr": "Belgeler ve indirmeler",
+          "en": "Documents and downloads",
+          "ar": "المستندات والتنزيلات"
+        },
+        "emptyText": {
+          "tr": "Teknik özellik verisi bulunmuyor.",
+          "en": "No technical specification data available.",
+          "ar": "لا تتوفر بيانات للمواصفات الفنية."
+        }
+      },
+      "data": {
+        "columns": [
+          {
+            "key": "tip",
+            "label": {
+              "tr": "Daire tipi",
+              "en": "Unit type",
+              "ar": "نوع الشقة"
+            }
+          },
+          {
+            "key": "oda",
+            "label": {
+              "tr": "Oda",
+              "en": "Rooms",
+              "ar": "الغرف"
+            }
+          },
+          {
+            "key": "net",
+            "label": {
+              "tr": "Net alan (m²)",
+              "en": "Net area (m²)",
+              "ar": "المساحة الصافية (م²)"
+            },
+            "num": true
+          },
+          {
+            "key": "brut",
+            "label": {
+              "tr": "Brüt alan (m²)",
+              "en": "Gross area (m²)",
+              "ar": "المساحة الإجمالية (م²)"
+            },
+            "num": true
+          },
+          {
+            "key": "balkon",
+            "label": {
+              "tr": "Balkon (m²)",
+              "en": "Balcony (m²)",
+              "ar": "الشرفة (م²)"
+            },
+            "num": true
+          }
+        ],
+        "rows": [
+          {
+            "tip": "A",
+            "oda": "1+1",
+            "net": 56,
+            "brut": 64,
+            "balkon": 6
+          },
+          {
+            "tip": "B",
+            "oda": "2+1",
+            "net": 84,
+            "brut": 95,
+            "balkon": 8
+          },
+          {
+            "tip": "C",
+            "oda": "3+1",
+            "net": 112,
+            "brut": 127,
+            "balkon": 10
+          },
+          {
+            "tip": "D",
+            "oda": "4+1",
+            "net": 148,
+            "brut": 168,
+            "balkon": 14
+          }
+        ],
+        "downloads": []
+      },
+      "tags": [
+        "sanayi",
+        "teknik",
+        "tablo",
+        "industrial",
+        "specifications",
+        "rtl"
+      ],
+      "id": "qa5zr8",
+      "path": "teknik-tablo",
+      "local": "body",
+      "index": 19
+    },
+    {
+      "name": "Zaman Çizelgesi 1",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "titlecolor": "var(--mx-site-text, #1b1b1b)",
+        "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 78%, var(--mx-site-bg, #ffffff))",
+        "accent": "var(--mx-site-primary, #b3410c)",
+        "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "badge": {
+          "tr": "Tarihçe",
+          "en": "History",
+          "ar": "تاريخنا"
+        },
+        "title": {
+          "tr": "Kalesu Yapı’nın yolculuğu",
+          "en": "The Kalesu Yapi journey",
+          "ar": "مسيرة كاليسو يابي"
+        },
+        "description": {
+          "tr": "Küçük bir ekipten bölgenin konut ve ticari projelerini üstlenen bir firmaya.",
+          "en": "From a small team to a firm delivering residential and commercial projects in the region.",
+          "ar": "من فريق صغير إلى شركة تنفذ المشاريع السكنية والتجارية في المنطقة."
+        },
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
+      },
+      "data": [
+        {
+          "year": "2008",
+          "title": {
+            "tr": "Kuruluş",
+            "en": "Founding",
+            "ar": "التأسيس"
+          },
+          "text": {
+            "tr": "Gaziantep’te üç mühendis ve küçük bir şantiye ekibiyle yola çıktık.",
+            "en": "We started in Gaziantep with three engineers and a small site crew.",
+            "ar": "انطلقنا في غازي عنتاب بثلاثة مهندسين وفريق موقع صغير."
+          }
+        },
+        {
+          "year": "2012",
+          "title": {
+            "tr": "İlk konut sitesi",
+            "en": "First housing complex",
+            "ar": "أول مجمع سكني"
+          },
+          "text": {
+            "tr": "120 daireli ilk konut sitemizi sözleşmedeki tarihte teslim ettik.",
+            "en": "We delivered our first 120-unit housing complex on the contractual date.",
+            "ar": "سلّمنا أول مجمع سكني لدينا من 120 شقة في الموعد التعاقدي."
+          }
+        },
+        {
+          "year": "2016",
+          "title": {
+            "tr": "Ticari yapılar",
+            "en": "Commercial buildings",
+            "ar": "المباني التجارية"
+          },
+          "text": {
+            "tr": "İş merkezi ve çarşı projeleriyle ticari yapı alanına girdik.",
+            "en": "We entered commercial construction with business-centre and bazaar projects.",
+            "ar": "دخلنا مجال البناء التجاري بمشاريع مراكز أعمال وأسواق."
+          }
+        },
+        {
+          "year": "2020",
+          "title": {
+            "tr": "Belgelendirme",
+            "en": "Certification",
+            "ar": "الحصول على الشهادات"
+          },
+          "text": {
+            "tr": "Kalite, çevre ve iş güvenliği yönetim sistemlerini belgelendirdik.",
+            "en": "We certified our quality, environmental and safety management systems.",
+            "ar": "حصلنا على شهادات أنظمة إدارة الجودة والبيئة والسلامة."
+          }
+        },
+        {
+          "year": "2024",
+          "title": {
+            "tr": "Şeffaf ilerleme",
+            "en": "Transparent progress",
+            "ar": "التقدّم الشفاف"
+          },
+          "text": {
+            "tr": "Müşterilerimize aşama aşama ilerleme görselleri sunmaya başladık.",
+            "en": "We began giving customers stage-by-stage progress images.",
+            "ar": "بدأنا بتزويد عملائنا بصور تقدّم مرحلة بمرحلة."
+          }
+        },
+        {
+          "year": "2026",
+          "title": {
+            "tr": "Bugün",
+            "en": "Today",
+            "ar": "اليوم"
+          },
+          "text": {
+            "tr": "Üç ilçede devam eden projelerimizle büyümeyi sürdürüyoruz.",
+            "en": "We keep growing with ongoing projects in three districts.",
+            "ar": "نواصل النمو بمشاريع جارية في ثلاث مناطق."
+          }
+        }
+      ],
+      "category": "timeline",
+      "description": "Zaman çizelgesi modülü. Kurumsal tarihçe, süreç adımları veya yol haritasını dikey çizgi + yıl rozetiyle listeler. Çok dilli başlık/metin ve animasyonlu giriş içerir.",
+      "version": "1.0.0",
+      "icon": "timeline",
+      "id": "j7k976",
+      "path": "timeline-1",
+      "local": "body",
+      "index": 20
+    },
+    {
+      "name": "Contact 6",
+      "desing": {
+        "max": "1200px",
+        "badge": {
+          "tr": "Teklif al",
+          "en": "Get a quote",
+          "ar": "اطلب عرض سعر"
+        },
+        "title": {
+          "tr": "Projeniz için teklif isteyin",
+          "en": "Request a quote for your project",
+          "ar": "اطلب عرض سعر لمشروعك"
+        },
+        "description": {
+          "tr": "Arsa, konut ya da ticari proje için bilgilerinizi bırakın; ekibimiz en geç iki iş günü içinde dönüş yapsın. Bu form demodur, veri gönderilmez.",
+          "en": "Leave your details for a plot, housing or commercial project and our team will reply within two business days. This form is a demo and no data is sent.",
+          "ar": "اترك بياناتك لمشروع أرض أو سكن أو مبنى تجاري وسيردّ فريقنا خلال يومي عمل. هذا النموذج تجريبي ولا تُرسَل أي بيانات."
+        },
+        "phone": "+90 342 000 00 00",
+        "email": "bilgi@kalesuyapi.example",
+        "address": {
+          "tr": "Atatürk Bulvarı No: 24, Şehitkamil, Gaziantep (kurgusal adres)",
+          "en": "24 Ataturk Boulevard, Sehitkamil, Gaziantep (fictional address)",
+          "ar": "شارع أتاتورك رقم 24، شهيد كامل، غازي عنتاب (عنوان افتراضي)"
+        },
+        "hours": {
+          "tr": "Pzt–Cum 09:00 – 18:00",
+          "en": "Mon–Fri 09:00 – 18:00",
+          "ar": "الاثنين–الجمعة 09:00 – 18:00"
+        },
+        "addressTitle": {
+          "tr": "Adres",
+          "en": "Address",
+          "ar": "العنوان"
+        },
+        "phoneTitle": {
+          "tr": "Telefon",
+          "en": "Phone",
+          "ar": "الهاتف"
+        },
+        "phoneRaw": "903420000000",
+        "emailTitle": {
+          "tr": "E-posta",
+          "en": "E-mail",
+          "ar": "البريد الإلكتروني"
+        },
+        "hoursTitle": {
+          "tr": "Çalışma saatleri",
+          "en": "Opening hours",
+          "ar": "ساعات العمل"
+        },
+        "namePlaceholder": {
+          "tr": "Adınız Soyadınız",
+          "en": "Your full name",
+          "ar": "الاسم الكامل"
+        },
+        "emailPlaceholder": {
+          "tr": "E-posta adresiniz",
+          "en": "Your e-mail address",
+          "ar": "بريدك الإلكتروني"
+        },
+        "phonePlaceholder": {
+          "tr": "Telefon numaranız",
+          "en": "Your phone number",
+          "ar": "رقم هاتفك"
+        },
+        "servicePlaceholder": {
+          "tr": "Proje türünü seçin",
+          "en": "Select a project type",
+          "ar": "اختر نوع المشروع"
+        },
+        "services": {
+          "tr": "konut|Konut projesi|ticari|Ticari yapı|arsa|Arsa değerlendirme|diger|Diğer",
+          "en": "housing|Housing project|commercial|Commercial building|plot|Plot evaluation|other|Other",
+          "ar": "konut|مشروع سكني|ticari|مبنى تجاري|arsa|تقييم أرض|diger|أخرى"
+        },
+        "messagePlaceholder": {
+          "tr": "Mesajınız…",
+          "en": "Your message…",
+          "ar": "رسالتك…"
+        },
+        "submitText": {
+          "tr": "Teklif iste",
+          "en": "Request a quote",
+          "ar": "اطلب عرضًا"
+        }
+      },
+      "category": "contact",
+      "description": "Modern iletişim formu modülü. Gradient ikon kartları, profesyonel form tasarımı ve hover efektleri.",
+      "version": "1.0.0",
+      "icon": "contact_mail",
+      "id": "lftduq",
+      "path": "contact-6",
+      "local": "body",
+      "data": [],
+      "index": 21
+    }
+  ]
+}

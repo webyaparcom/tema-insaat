@@ -1,0 +1,40 @@
+{
+  "id": "235jh2kmte",
+  "name": {
+    "tr": "Tarihçe",
+    "en": "History",
+    "ar": "تاريخنا"
+  },
+  "description": {
+    "tr": "Kalesu Yapı’nın 2008’den bugüne yolculuğu.",
+    "en": "The Kalesu Yapi journey from 2008 to today.",
+    "ar": "مسيرة كاليسو يابي منذ عام 2008 حتى اليوم."
+  },
+  "keyword": {
+    "tr": "tarihçe, kuruluş, dönüm noktaları",
+    "en": "history, founding, milestones",
+    "ar": "تاريخ، تأسيس، محطات"
+  },
+  "path": "tarihce",
+  "icon": "history",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "j7k976",
+      "g1ca01"
+    ],
+    "footer": []
+  },
+  "index": 6,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Tarihçe",
+    "en": "History",
+    "ar": "تاريخنا"
+  },
+  "date": "2026-10-30T18:32:56.826Z",
+  "update": "2026-10-30T19:01:10.349Z"
+}

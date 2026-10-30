@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Kalesu Yapı: konut ve ticari projeler, aşama aşama şantiye ilerlemesi, kat planları ve sözleşmeli teslim. Görseller temsilidir. (Demo site)",
+    "en": "Kalesu Yapi: residential and commercial projects, stage-by-stage site progress, floor plans and contractual delivery. Images are representative. (Demo site)",
+    "ar": "كاليسو يابي: مشاريع سكنية وتجارية وتقدّم الموقع مرحلة بمرحلة ومخططات الطوابق وتسليم تعاقدي. الصور تمثيلية. (موقع تجريبي)"
+  },
+  "keyword": {
+    "tr": "inşaat, konut projeleri, müteahhit, kat planı, şantiye",
+    "en": "construction, housing projects, contractor, floor plan, site progress",
+    "ar": "بناء، مشاريع سكنية، مقاول، مخطط طابق، تقدّم الموقع"
+  },
+  "category": "Galeri",
+  "name": "Kalesu Yapı",
+  "domain": "insaat.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "inter",
+    "heading": "barlow-condensed",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#B3410C",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "4px",
+    "--mx-radius-md": "8px",
+    "--mx-radius-lg": "8px",
+    "--mx-radius-xl": "12px"
+  },
+  "icon": "icon.png"
+}
