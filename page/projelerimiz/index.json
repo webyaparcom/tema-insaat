@@ -1,0 +1,46 @@
+{
+  "name": {
+    "tr": "Projelerimiz",
+    "en": "Projects",
+    "ar": "مشاريعنا"
+  },
+  "status": "play",
+  "category": "",
+  "id": "projelerimiz",
+  "url": "",
+  "path": "projelerimiz",
+  "index": 0,
+  "icon": "apartment",
+  "desing": {
+    "header": [],
+    "body": [
+      "g1pk02"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Kalesu Yapı’nın konut ve ticari projeleri; kategori ve duruma göre süzülebilir.",
+    "en": "Kalesu Yapi residential and commercial projects, filterable by category and status.",
+    "ar": "المشاريع السكنية والتجارية لكاليسو يابي، قابلة للتصفية حسب الفئة والحالة."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Projelerimiz",
+    "en": "Projects",
+    "ar": "مشاريعنا"
+  },
+  "keyword": {
+    "tr": "projeler, konut, ticari, inşaat",
+    "en": "projects, housing, commercial, construction",
+    "ar": "مشاريع، سكني، تجاري، بناء"
+  },
+  "text": {},
+  "update": "2026-10-30T19:01:10.292Z",
+  "date": "2026-10-30"
+}

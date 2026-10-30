@@ -1,0 +1,269 @@
+{
+  "data": [
+    {
+      "name": {
+        "tr": "Projelerimiz",
+        "en": "Projects",
+        "ar": "مشاريعنا"
+      },
+      "status": "play",
+      "id": "projelerimiz",
+      "path": "projelerimiz",
+      "category": "",
+      "url": "",
+      "index": 0,
+      "icon": "apartment",
+      "desing": {
+        "header": [],
+        "body": [
+          "g1pk02"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Kalesu Yapı’nın konut ve ticari projeleri; kategori ve duruma göre süzülebilir.",
+        "en": "Kalesu Yapi residential and commercial projects, filterable by category and status.",
+        "ar": "المشاريع السكنية والتجارية لكاليسو يابي، قابلة للتصفية حسب الفئة والحالة."
+      }
+    },
+    {
+      "id": "fdvfd468a1",
+      "name": {
+        "tr": "Devam eden",
+        "en": "Ongoing",
+        "ar": "المشاريع الجارية"
+      },
+      "description": {
+        "tr": "Devam eden ve yakında başlayacak projeler; teslim süresi sözleşmede en fazla 48 aydır.",
+        "en": "Ongoing and upcoming projects; the contractual delivery period is at most 48 months.",
+        "ar": "المشاريع الجارية والقادمة؛ مدة التسليم التعاقدية 48 شهرًا كحدٍّ أقصى."
+      },
+      "path": "devam-eden",
+      "icon": "engineering",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "vpdi33",
+          "g1ca01"
+        ],
+        "footer": []
+      },
+      "index": 1
+    },
+    {
+      "id": "rznaj2qp87",
+      "name": {
+        "tr": "Tamamlanan",
+        "en": "Completed",
+        "ar": "المشاريع المنجزة"
+      },
+      "description": {
+        "tr": "Teslim edilen konut ve ticari projelerimiz.",
+        "en": "Residential and commercial projects we have delivered.",
+        "ar": "المشاريع السكنية والتجارية التي سلّمناها."
+      },
+      "path": "tamamlanan",
+      "icon": "task_alt",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "2qlxpn",
+          "g1ca01"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "r1o79y8us1",
+      "name": {
+        "tr": "İlerleme",
+        "en": "Progress",
+        "ar": "تقدّم البناء"
+      },
+      "description": {
+        "tr": "Aynı kadrajdan dört aşamada şantiye ilerlemesi (görseller temsilidir).",
+        "en": "Site progress in four stages from the same viewpoint (images are representative).",
+        "ar": "تقدّم الموقع في أربع مراحل من الزاوية نفسها (الصور تمثيلية)."
+      },
+      "path": "insaat-ilerleme",
+      "icon": "timelapse",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "hnxz34",
+          "g1ca01"
+        ],
+        "footer": []
+      },
+      "index": 3
+    },
+    {
+      "id": "rfib8yz3s8",
+      "name": {
+        "tr": "Kat planları",
+        "en": "Floor plans",
+        "ar": "مخططات الطوابق"
+      },
+      "description": {
+        "tr": "Daire tipleri ile net ve brüt alanlar (örnek proje).",
+        "en": "Unit types with net and gross areas (sample project).",
+        "ar": "أنواع الشقق مع المساحات الصافية والإجمالية (مشروع نموذجي)."
+      },
+      "path": "kat-planlari",
+      "icon": "architecture",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "t2t4xv",
+          "qa5zr8"
+        ],
+        "footer": []
+      },
+      "index": 4
+    },
+    {
+      "id": "6t2ny12fdd",
+      "name": {
+        "tr": "Belgelerimiz",
+        "en": "Certificates",
+        "ar": "الشهادات"
+      },
+      "description": {
+        "tr": "Kalite, çevre, iş güvenliği ve müteahhitlik yetki belgelerimiz (demo).",
+        "en": "Our quality, environmental, safety and contractor authorisation certificates (demo).",
+        "ar": "شهادات الجودة والبيئة والسلامة وتأهيل المقاولين لدينا (تجريبي)."
+      },
+      "path": "belgelerimiz",
+      "icon": "workspace_premium",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "4o0fuc",
+          "g1ca01"
+        ],
+        "footer": []
+      },
+      "index": 5
+    },
+    {
+      "id": "235jh2kmte",
+      "name": {
+        "tr": "Tarihçe",
+        "en": "History",
+        "ar": "تاريخنا"
+      },
+      "description": {
+        "tr": "Kalesu Yapı’nın 2008’den bugüne yolculuğu.",
+        "en": "The Kalesu Yapi journey from 2008 to today.",
+        "ar": "مسيرة كاليسو يابي منذ عام 2008 حتى اليوم."
+      },
+      "path": "tarihce",
+      "icon": "history",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "j7k976",
+          "g1ca01"
+        ],
+        "footer": []
+      },
+      "index": 6
+    },
+    {
+      "id": "o4j3r3oadh",
+      "name": {
+        "tr": "Teklif al",
+        "en": "Get a quote",
+        "ar": "اطلب عرض سعر"
+      },
+      "description": {
+        "tr": "Konut, ticari ya da arsa projeniz için teklif formu (demo).",
+        "en": "Quote form for your housing, commercial or plot project (demo).",
+        "ar": "نموذج طلب عرض سعر لمشروعك السكني أو التجاري أو الأرض (تجريبي)."
+      },
+      "path": "teklif-al",
+      "icon": "request_quote",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "g1hr01",
+          "lftduq"
+        ],
+        "footer": []
+      },
+      "index": 7
+    },
+    {
+      "name": {
+        "tr": "Hakkımızda",
+        "en": "About",
+        "ar": "من نحن"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "",
+      "url": "",
+      "index": 8,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [
+          "g1in01"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Kalesu Yapı hakkında.",
+        "en": "About Kalesu Yapi.",
+        "ar": "عن كاليسو يابي."
+      }
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "اتصل بنا"
+      },
+      "status": "play",
+      "id": "iletisim",
+      "path": "iletisim",
+      "category": "",
+      "url": "",
+      "index": 9,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [
+          "g1ct01",
+          "g1mp01"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Adres, telefon ve çalışma saatleri.",
+        "en": "Address, phone and opening hours.",
+        "ar": "العنوان والهاتف وساعات العمل."
+      }
+    }
+  ],
+  "desc": []
+}

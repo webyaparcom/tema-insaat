@@ -1,0 +1,41 @@
+{
+  "id": "vizyon",
+  "name": {
+    "tr": "Vizyon",
+    "en": "Vision",
+    "ar": "الرؤية"
+  },
+  "description": {
+    "tr": "Vizyonumuz",
+    "en": "Our vision",
+    "ar": "رؤيتنا"
+  },
+  "keyword": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "path": "vizyon",
+  "icon": "visibility",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 1,
+  "url": "",
+  "text": {
+    "tr": "<h2>Vizyonumuz</h2>\n<p>Bölgenin güvenle anılan, ilerlemesini açıkça paylaşan ve belgeli kalitesiyle tercih edilen yapı firması olmak.</p>",
+    "en": "<h2>Our vision</h2>\n<p>To be the region’s trusted building firm, one that shares its progress openly and is chosen for its certified quality.</p>",
+    "ar": "<h2>رؤيتنا</h2>\n<p>أن نكون شركة البناء الموثوقة في المنطقة، التي تُعلن تقدّمها بوضوح ويُفضَّل اختيارها لجودتها الموثّقة.</p>"
+  },
+  "title": {
+    "tr": "Vizyon",
+    "en": "Vision",
+    "ar": "الرؤية"
+  },
+  "date": "2026-10-30T18:26:58.345Z",
+  "update": "2026-10-30T19:01:10.395Z"
+}
