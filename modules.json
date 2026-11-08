@@ -46,7 +46,10 @@
         "logo": "logo.png",
         "color": "var(--mx-site-text, #1b1b1b)",
         "height": "84px",
-        "background-color": "var(--mx-site-bg, #ffffff)"
+        "background-color": "var(--mx-site-bg, #ffffff)",
+        "menubg": "",
+        "menutext": "#fff",
+        "menuhoverbg": "rgba(255,255,255,.18)"
       },
       "version": "1.0.0",
       "icon": "menu",
@@ -545,7 +548,8 @@
         "numbercolor": "#ffffff",
         "labelcolor": "rgba(255,255,255,.88)",
         "iconsize": "56px",
-        "iconbox": "88px"
+        "iconbox": "88px",
+        "stil": ""
       },
       "version": "1.0.0",
       "icon": "monitoring",
@@ -891,7 +895,8 @@
           "en": "Projects",
           "ar": "المشاريع"
         },
-        "btn2Url": "projelerimiz"
+        "btn2Url": "projelerimiz",
+        "stil": ""
       },
       "version": "1.1.0",
       "icon": "campaign",
@@ -909,7 +914,10 @@
         "color": "var(--mx-site-text, #1b1b1b)",
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "minimal_design": true,
-        "social_media": false
+        "social_media": false,
+        "logo_maxh": "60px",
+        "logo_plate": false,
+        "contact_line": "auto"
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -930,7 +938,8 @@
           "ar": "تواصل معنا"
         },
         "margin": "30px 0px 30px 0px",
-        "linkcolor": "var(--mx-site-primary, #2563eb)"
+        "linkcolor": "var(--mx-site-primary, #2563eb)",
+        "stil": ""
       },
       "version": "1.0.0",
       "icon": "contact_mail",
@@ -1031,7 +1040,8 @@
           "tr": "Hakkımızda",
           "en": "About us",
           "ar": "من نحن"
-        }
+        },
+        "stil": ""
       },
       "version": "1.1.0",
       "icon": "business",
@@ -1565,7 +1575,8 @@
           "tr": "42|Tamamlanan proje|3.200|Teslim edilen konut|18|Yıllık deneyim",
           "en": "42|Completed projects|3,200|Homes delivered|18|Years of experience",
           "ar": "42|مشروعًا منجزًا|3.200|وحدة سكنية مسلَّمة|18|سنة من الخبرة"
-        }
+        },
+        "stil": ""
       },
       "category": "hero",
       "description": "Gradient hero: istatistikler, CTA, görsel alanı. Metinler cok dilli (tr/en); renkler --gradient--, --btn_primary_bg-- ile markaya uyumlanır. Buton URL pathnext (urunler, iletisim).",
@@ -2342,6 +2353,12 @@
             "en": "{i} / {n}",
             "ar": "{i} من {n}"
           }
+        },
+        "rizaAlindi": false,
+        "riza": {
+          "tr": "Yazılı açık rıza olmadan işlem görseli yayınlanmaz.",
+          "en": "Treatment images are not published without written explicit consent.",
+          "ar": "لا تُنشر صور الإجراءات دون موافقة خطية صريحة."
         }
       },
       "data": [
@@ -2448,7 +2465,9 @@
           "ar": "أرقام الشهادات افتراضية لأغراض العرض التجريبي ولا تعود إلى جهة حقيقية."
         },
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
-        "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
+        "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "badgebg": "#2E6BFF",
+        "badgecolor": "#ffffff"
       },
       "data": [
         {
@@ -2584,7 +2603,8 @@
           "tr": "Kat planları",
           "en": "Floor plans",
           "ar": "مخططات الطوابق"
-        }
+        },
+        "stil": ""
       },
       "category": "module",
       "description": "Kurumsal tanıtım ve hakkımızda modülü. Firma tanıtımı, vizyon, misyon metinlerini görsel ile birlikte sunar. Ana sayfa şeridi ve temalar için varsayılan cok dilli metinler. İki kolonlu responsive tasarım, W2 animasyon ve icon desteği içerir.",
@@ -2792,7 +2812,8 @@
           "ar": "من فريق صغير إلى شركة تنفذ المشاريع السكنية والتجارية في المنطقة."
         },
         "cardbg": "var(--mx-site-surface, #ffffff)",
-        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "accentText": "#ffffff"
       },
       "data": [
         {
@@ -2969,7 +2990,8 @@
           "tr": "Teklif iste",
           "en": "Request a quote",
           "ar": "اطلب عرضًا"
-        }
+        },
+        "formAction": ""
       },
       "category": "contact",
       "description": "Modern iletişim formu modülü. Gradient ikon kartları, profesyonel form tasarımı ve hover efektleri.",
