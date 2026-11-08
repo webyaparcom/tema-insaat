@@ -106,84 +106,6 @@
       "index": 3
     },
     {
-      "id": "rfib8yz3s8",
-      "name": {
-        "tr": "Kat planları",
-        "en": "Floor plans",
-        "ar": "مخططات الطوابق"
-      },
-      "description": {
-        "tr": "Daire tipleri ile net ve brüt alanlar (örnek proje).",
-        "en": "Unit types with net and gross areas (sample project).",
-        "ar": "أنواع الشقق مع المساحات الصافية والإجمالية (مشروع نموذجي)."
-      },
-      "path": "kat-planlari",
-      "icon": "architecture",
-      "category": "",
-      "status": "play",
-      "desing": {
-        "header": [],
-        "body": [
-          "t2t4xv",
-          "qa5zr8"
-        ],
-        "footer": []
-      },
-      "index": 4
-    },
-    {
-      "id": "6t2ny12fdd",
-      "name": {
-        "tr": "Belgelerimiz",
-        "en": "Certificates",
-        "ar": "الشهادات"
-      },
-      "description": {
-        "tr": "Kalite, çevre, iş güvenliği ve müteahhitlik yetki belgelerimiz (demo).",
-        "en": "Our quality, environmental, safety and contractor authorisation certificates (demo).",
-        "ar": "شهادات الجودة والبيئة والسلامة وتأهيل المقاولين لدينا (تجريبي)."
-      },
-      "path": "belgelerimiz",
-      "icon": "workspace_premium",
-      "category": "",
-      "status": "play",
-      "desing": {
-        "header": [],
-        "body": [
-          "4o0fuc",
-          "g1ca01"
-        ],
-        "footer": []
-      },
-      "index": 5
-    },
-    {
-      "id": "235jh2kmte",
-      "name": {
-        "tr": "Tarihçe",
-        "en": "History",
-        "ar": "تاريخنا"
-      },
-      "description": {
-        "tr": "Kalesu Yapı’nın 2008’den bugüne yolculuğu.",
-        "en": "The Kalesu Yapi journey from 2008 to today.",
-        "ar": "مسيرة كاليسو يابي منذ عام 2008 حتى اليوم."
-      },
-      "path": "tarihce",
-      "icon": "history",
-      "category": "",
-      "status": "play",
-      "desing": {
-        "header": [],
-        "body": [
-          "j7k976",
-          "g1ca01"
-        ],
-        "footer": []
-      },
-      "index": 6
-    },
-    {
       "id": "o4j3r3oadh",
       "name": {
         "tr": "Teklif al",
@@ -207,7 +129,7 @@
         ],
         "footer": []
       },
-      "index": 7
+      "index": 4
     },
     {
       "name": {
@@ -220,7 +142,7 @@
       "path": "hakkimizda",
       "category": "",
       "url": "",
-      "index": 8,
+      "index": 5,
       "icon": "home",
       "desing": {
         "header": [],
@@ -247,7 +169,7 @@
       "path": "iletisim",
       "category": "",
       "url": "",
-      "index": 9,
+      "index": 6,
       "icon": "home",
       "desing": {
         "header": [],
