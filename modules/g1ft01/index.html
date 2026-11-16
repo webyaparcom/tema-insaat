@@ -1,188 +1,96 @@
-<footer class="footer">
-  <div class="footer-top">
-    <div class="footer-logo">
-      <img src="/img/{{logo}}" height="60"   alt="{{web-name}} Logo" />
-    </div>
-    <ul class="menu">
-      {{html}}
-    </ul>
-  </div>
-  {{contactline}}
-  <div class="footer-bottom">
-    {{langbar}}
-    <p>&copy; {{web-name}} 2026. @all-rights@.</p>
+<footer class="modulex-alt-rozet{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-alt-rozet-ic">
+    {{fbbas}}
+    {{fbgovde}}
   </div>
 </footer>
+
 <style>
-  .footer {
-    background-color: --bgcolor--;
-    color: --color-- !important;
-    padding: 20px;
-    border-top: 5px solid --bordercolor--;
-  }
+  /* alt-rozet — Kreatif stüdyo imzası gibi dönen dairesel yazı (SVG textPath) — sıradan «yukarı» düğmesi yerine bir marka mührü. */
+  .modulex-alt-rozet { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-alt-rozet *, .modulex-alt-rozet *::before, .modulex-alt-rozet *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-alt-rozet :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-alt-rozet :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-alt-rozet :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-alt-rozet :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-alt-rozet img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-alt-rozet) img { height: auto; }
+  .modulex-alt-rozet [hidden] { display: none !important; }
+  .modulex-alt-rozet :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-alt-rozet :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-alt-rozet-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-alt-rozet-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-alt-rozet--bassiz .modulex-alt-rozet-bas { display: none; }
+  .modulex-alt-rozet-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-alt-rozet-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-alt-rozet-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-alt-rozet-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-alt-rozet-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-alt-rozet-dugme:hover { transform: translateY(-2px); }
+  .modulex-alt-rozet-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-alt-rozet-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-alt-rozet-dugme .material-symbols-outlined { font-size: 20px; }
 
-  .footer-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+  .modulex-alt-rozet-bag { color: inherit; text-decoration: none; transition: color 0.2s ease; }
+  .modulex-alt-rozet-bag:hover { color: --accentInk--; text-decoration: underline; text-underline-offset: 4px; }
+  .modulex-alt-rozet-bag[aria-current="page"] { color: --accentInk--; font-weight: 700; }
+  .modulex-alt-rozet-logo { display: inline-flex; align-items: center; gap: 10px; color: inherit; text-decoration: none; }
+  .modulex-alt-rozet-logo img { width: auto; max-height: --logoH--; }
+  .modulex-alt-rozet-ad { font-family: var(--mx-font-heading, inherit); font-size: 1.4rem; font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; }
+  .modulex-alt-rozet-bbaslik { margin-block-end: 14px; color: --accentInk--; font-size: 0.8rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; }
+  .modulex-alt-rozet-sayfalar, .modulex-alt-rozet-baglantilar, .modulex-alt-rozet-iletisim, .modulex-alt-rozet-yasal { display: grid; gap: 9px; }
+  .modulex-alt-rozet-il { display: flex; align-items: flex-start; gap: 10px; }
+  .modulex-alt-rozet-il-ic { display: grid; gap: 2px; }
+  .modulex-alt-rozet-il-etiket { color: --muted--; font-size: 0.8rem; }
+  .modulex-alt-rozet-il-ikon { flex: none; color: --accentInk--; font-size: 20px; }
+  .modulex-alt-rozet-saatler { display: grid; gap: 6px; }
+  .modulex-alt-rozet-saat { display: flex; justify-content: space-between; gap: 16px; }
+  .modulex-alt-rozet-saat dd { margin: 0; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .modulex-alt-rozet-sosyal { display: flex; flex-wrap: wrap; gap: 10px; }
+  .modulex-alt-rozet-sosyal-a { display: inline-grid; place-items: center; width: 42px; height: 42px; border: 1px solid --cizgi--; border-radius: 50%; color: inherit; font-size: 18px; transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease, transform 0.25s ease; }
+  .modulex-alt-rozet-sosyal-a:hover { border-color: --accent--; background: --accent--; color: --accentText--; transform: translateY(-2px); }
+  .modulex-alt-rozet-hakkinda { max-width: 46ch; color: --muted--; }
+  .modulex-alt-rozet-telif { display: flex; flex-wrap: wrap; gap: 4px 14px; color: --muted--; font-size: 0.9rem; }
+  .modulex-alt-rozet-dil:empty { display: none; }
+  .modulex-alt-rozet-yukari { display: inline-grid; place-items: center; flex: none; width: 46px; height: 46px; border-radius: 50%; background: --accent--; color: --accentText--; text-decoration: none; transition: transform 0.25s ease; }
+  .modulex-alt-rozet-yukari:hover { transform: translateY(-3px); }
+  .modulex-alt-rozet-bulten { display: grid; gap: 8px; }
+  .modulex-alt-rozet-nl-etiket { font-size: 0.9rem; font-weight: 700; }
+  .modulex-alt-rozet-nl-satir { display: flex; flex-wrap: wrap; gap: 8px; }
+  .modulex-alt-rozet-nl-girdi { flex: 1 1 200px; min-width: 0; min-height: 48px; padding: 10px 18px; border: 1px solid --cizgi--; border-radius: 999px; background: --bg--; color: --text--; font: inherit; }
+  .modulex-alt-rozet-nl-dugme { display: inline-flex; align-items: center; gap: 6px; min-height: 48px; padding: 10px 22px; border: 0; border-radius: 999px; background: --accent--; color: --accentText--; font: inherit; font-weight: 700; transition: transform 0.2s ease; }
+  .modulex-alt-rozet-nl-dugme:hover { transform: translateY(-2px); }
+  .modulex-alt-rozet-nl-dugme .material-symbols-outlined { font-size: 18px; }
+  .modulex-alt-rozet-nl-durum:empty { display: none; }
+  .modulex-alt-rozet-nl-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.4rem, 2.6vw, 2rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.15; }
+  .modulex-alt-rozet-nl-metin { color: --muted--; }
 
-  .footer-logo {
-    display: flex;
-    align-items: center;
-    flex-shrink: 0;
+  .modulex-alt-rozet-izgara { display: grid; grid-template-columns: minmax(0, 1.4fr) repeat(3, minmax(0, 1fr)) auto; gap: 32px; align-items: start; }
+  .modulex-alt-rozet-marka { display: grid; gap: 16px; }
+  .modulex-alt-rozet-muhur { position: relative; display: grid; place-items: center; width: 150px; height: 150px; color: --accent--; text-decoration: none; }
+  .modulex-alt-rozet-cember { position: absolute; inset: 0; width: 100%; height: 100%; fill: currentColor; font-size: 15px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; animation: modulex-alt-rozet-don 18s linear infinite; }
+  .modulex-alt-rozet-muhur:hover .modulex-alt-rozet-cember { animation-duration: 6s; }
+  @keyframes modulex-alt-rozet-don { to { transform: rotate(360deg); } }
+  .modulex-alt-rozet-ok { display: grid; place-items: center; width: 64px; height: 64px; border-radius: 50%; background: --accent--; color: --accentText--; font-size: 28px; transition: transform 0.3s ease; }
+  .modulex-alt-rozet-muhur:hover .modulex-alt-rozet-ok { transform: translateY(-4px); }
+  .modulex-alt-rozet-alt { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-block-start: 40px; padding-block-start: 20px; border-block-start: 1px solid --cizgi--; }
+  @media (max-width: 1024px) {
+    .modulex-alt-rozet-izgara { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
   }
-
-  /* 31 Eki 2026: logo oranı — HTML height="60" yalnız oran ipucudur, CSS ezer.
-     Eski `max-width:150px` + sabit yükseklik geniş logoyu 150×60'a basıyordu (24 tema + webyapar + aaroots). */
-  .footer-logo img {
-    display: block;
-    height: auto;
-    width: auto;
-    max-height: --logo_maxh--;
-    max-width: 180px;
-    object-fit: contain;
-    flex-shrink: 0;
-  }
-
-  /* logo_plate:true → koyu logo koyu zeminde okunur (beyaz plaka; sabit beyaz plaka bilinçli: logo rengi için) */
-  .footer-logo.footer-logo--plate {
-    background: #fff;
-    border-radius: 8px;
-    padding: 6px 12px;
-  }
-
-  .menu {
-    display: flex;
-    flex-wrap: wrap; /* G3: 7+ sayfalı menü 390 px'te taşıyordu (yatay kaydırma) */
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .modulex-menu__item {
-    margin: 0 15px;
-  }
-
-  .modulex-menu_link {
-    color: --color-- !important;
-  }
-
-  .modulex-menu_link:hover {
-    color: var(--mx-site-primary, #2980b9);
-    text-decoration: underline;
-  }
-
-  .modulex-menu__link {
-    color: var(--mx-site-text, #ecf0f1);
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-
-  /* contact_line: tel · e-posta (yalnız setting.phone / setting.email varsa back.js basar) */
-  .footer-contact {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 6px 10px;
-    max-width: 1200px;
-    margin: 16px auto 0;
-    font-size: 14px;
-    opacity: 0.9;
-  }
-
-  .footer-contact a {
-    color: --color--;
-    text-decoration: none;
-  }
-
-  .footer-contact a:hover {
-    text-decoration: underline;
-  }
-
-  .footer-contact .footer-contact__sep {
-    opacity: 0.6;
-  }
-
-  .footer-bottom {
-    text-align: center;
-    margin-top: 20px;
-    border-top: 1px solid #7f8c8d;
-    border-top-color: color-mix(in srgb, var(--mx-site-text, #7f8c8d) 35%, transparent);
-    padding-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 12px; /* 31 Eki 2026: mobilde dil çubuğu ile telif üst üste biniyordu */
-  }
-
-  .footer-bottom [class*="lang"] {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 6px;
-  }
-
-  .footer-bottom p {
-    margin: 0;
-    opacity: 0.75;
-  }
-
   @media (max-width: 768px) {
-    .footer-top {
-      flex-direction: column;
-      text-align: center;
-    }
-
-    .menu {
-      margin-top: 20px;
-    }
-
-    .modulex-menu__item {
-      margin: 6px 10px;
-    }
-
-    .footer-bottom {
-      gap: 14px;
-    }
+    .modulex-alt-rozet-izgara { grid-template-columns: minmax(0, 1fr); }
+    .modulex-alt-rozet-muhur { width: 120px; height: 120px; justify-self: center; }
   }
 
-  /* W2: mobil tasma kontrolu */
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-alt-rozet :is(.modulex-alt-rozet-baslik, .modulex-alt-rozet-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-alt-rozet-baslik { line-height: 1.35; }
   @media (max-width: 768px) {
-    [class*="modulex"] {
-      max-width: 100%;
-      box-sizing: border-box;
-    }
+    .modulex-alt-rozet { padding-inline: 16px; }
   }
-
-  /* W2: erisilebilirlik — animasyon kapatma */
   @media (prefers-reduced-motion: reduce) {
-    [class*="modulex"],
-    [class*="modulex"] * {
-      animation: none !important;
-      transition: none !important;
-    }
-  }
-
-  /* Mobil uygulama kuralı (12 Kas 2026): dokunma hedefleri >= 48px (yalnız <=768px) */
-  @media (max-width: 768px) {
-    .modulex-menu_link,
-    .footer-contact a {
-      display: inline-flex;
-      align-items: center;
-      min-height: 48px;
-    }
-
-    .footer .wm-langbar li a {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      min-width: 48px;
-      min-height: 48px;
-    }
+    .modulex-alt-rozet *, .modulex-alt-rozet *::before, .modulex-alt-rozet *::after { animation: none !important; transition: none !important; }
   }
 </style>
